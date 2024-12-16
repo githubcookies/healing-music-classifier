@@ -3783,3 +3783,1779 @@ label 74:
 2024-12-07 21:16:56,922 - predict - INFO - Features scaled successfully
 2024-12-07 21:16:56,925 - predict - INFO - Making prediction...
 2024-12-07 21:16:56,938 - predict - INFO - Prediction successful: 0.91
+2024-12-07 21:21:48,083 - __main__ - INFO - Processing uploaded file: 13-Æ¬¶Î4.mp3 (size: 478228 bytes)
+2024-12-07 21:21:48,086 - predict - INFO - Starting prediction process for: C:\Users\13576\AppData\Local\Temp\tmpg635c2_9.mp3
+2024-12-07 21:21:48,088 - predict - DEBUG - Starting audio file verification for: C:\Users\13576\AppData\Local\Temp\tmpg635c2_9.mp3
+2024-12-07 21:21:48,090 - predict - DEBUG - File size: 478228 bytes
+2024-12-07 21:21:48,091 - predict - DEBUG - Attempting to read with soundfile...
+2024-12-07 21:21:48,113 - predict - DEBUG - SoundFile success - Sample rate: 44100Hz, Channels: 2, Frames: 1315631
+2024-12-07 21:21:48,113 - predict - DEBUG - Attempting to read with librosa...
+2024-12-07 21:21:49,359 - numba.core.byteflow - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1141)
+           2	LOAD_FAST(arg=0, lineno=1144)
+           4	LOAD_CONST(arg=1, lineno=1144)
+           6	BINARY_SUBSCR(arg=None, lineno=1144)
+           8	STORE_FAST(arg=3, lineno=1144)
+          10	LOAD_FAST(arg=1, lineno=1145)
+          12	UNARY_NEGATIVE(arg=None, lineno=1145)
+          14	LOAD_FAST(arg=3, lineno=1145)
+          16	DUP_TOP(arg=None, lineno=1145)
+          18	ROT_THREE(arg=None, lineno=1145)
+          20	COMPARE_OP(arg=1, lineno=1145)
+          22	POP_JUMP_IF_FALSE(arg=32, lineno=1145)
+          24	LOAD_FAST(arg=1, lineno=1145)
+          26	COMPARE_OP(arg=1, lineno=1145)
+          28	POP_JUMP_IF_FALSE(arg=40, lineno=1145)
+          30	JUMP_FORWARD(arg=4, lineno=1145)
+>         32	POP_TOP(arg=None, lineno=1145)
+          34	JUMP_FORWARD(arg=4, lineno=1145)
+>         36	LOAD_CONST(arg=1, lineno=1146)
+          38	STORE_FAST(arg=3, lineno=1146)
+>         40	LOAD_FAST(arg=0, lineno=1148)
+          42	LOAD_CONST(arg=2, lineno=1148)
+          44	BINARY_SUBSCR(arg=None, lineno=1148)
+          46	STORE_FAST(arg=4, lineno=1148)
+          48	LOAD_FAST(arg=1, lineno=1149)
+          50	UNARY_NEGATIVE(arg=None, lineno=1149)
+          52	LOAD_FAST(arg=4, lineno=1149)
+          54	DUP_TOP(arg=None, lineno=1149)
+          56	ROT_THREE(arg=None, lineno=1149)
+          58	COMPARE_OP(arg=1, lineno=1149)
+          60	POP_JUMP_IF_FALSE(arg=70, lineno=1149)
+          62	LOAD_FAST(arg=1, lineno=1149)
+          64	COMPARE_OP(arg=1, lineno=1149)
+          66	POP_JUMP_IF_FALSE(arg=78, lineno=1149)
+          68	JUMP_FORWARD(arg=4, lineno=1149)
+>         70	POP_TOP(arg=None, lineno=1149)
+          72	JUMP_FORWARD(arg=4, lineno=1149)
+>         74	LOAD_CONST(arg=1, lineno=1150)
+          76	STORE_FAST(arg=4, lineno=1150)
+>         78	LOAD_FAST(arg=2, lineno=1152)
+          80	POP_JUMP_IF_FALSE(arg=102, lineno=1152)
+          82	LOAD_GLOBAL(arg=0, lineno=1153)
+          84	LOAD_METHOD(arg=1, lineno=1153)
+          86	LOAD_FAST(arg=3, lineno=1153)
+          88	CALL_METHOD(arg=1, lineno=1153)
+          90	LOAD_GLOBAL(arg=0, lineno=1153)
+          92	LOAD_METHOD(arg=1, lineno=1153)
+          94	LOAD_FAST(arg=4, lineno=1153)
+          96	CALL_METHOD(arg=1, lineno=1153)
+          98	COMPARE_OP(arg=3, lineno=1153)
+         100	RETURN_VALUE(arg=None, lineno=1153)
+>        102	LOAD_GLOBAL(arg=0, lineno=1155)
+         104	LOAD_METHOD(arg=2, lineno=1155)
+         106	LOAD_FAST(arg=3, lineno=1155)
+         108	CALL_METHOD(arg=1, lineno=1155)
+         110	LOAD_GLOBAL(arg=0, lineno=1155)
+         112	LOAD_METHOD(arg=2, lineno=1155)
+         114	LOAD_FAST(arg=4, lineno=1155)
+         116	CALL_METHOD(arg=1, lineno=1155)
+         118	COMPARE_OP(arg=3, lineno=1155)
+         120	RETURN_VALUE(arg=None, lineno=1155)
+         122	LOAD_CONST(arg=3, lineno=1155)
+         124	RETURN_VALUE(arg=None, lineno=1155)
+2024-12-07 21:21:49,367 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2024-12-07 21:21:49,367 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:49,367 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2024-12-07 21:21:49,371 - numba.core.byteflow - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1141)
+2024-12-07 21:21:49,371 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,373 - numba.core.byteflow - DEBUG - dispatch pc=2, inst=LOAD_FAST(arg=0, lineno=1144)
+2024-12-07 21:21:49,374 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,374 - numba.core.byteflow - DEBUG - dispatch pc=4, inst=LOAD_CONST(arg=1, lineno=1144)
+2024-12-07 21:21:49,374 - numba.core.byteflow - DEBUG - stack ['$x2.0']
+2024-12-07 21:21:49,376 - numba.core.byteflow - DEBUG - dispatch pc=6, inst=BINARY_SUBSCR(arg=None, lineno=1144)
+2024-12-07 21:21:49,376 - numba.core.byteflow - DEBUG - stack ['$x2.0', '$const4.1']
+2024-12-07 21:21:49,376 - numba.core.byteflow - DEBUG - dispatch pc=8, inst=STORE_FAST(arg=3, lineno=1144)
+2024-12-07 21:21:49,376 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2']
+2024-12-07 21:21:49,376 - numba.core.byteflow - DEBUG - dispatch pc=10, inst=LOAD_FAST(arg=1, lineno=1145)
+2024-12-07 21:21:49,376 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,376 - numba.core.byteflow - DEBUG - dispatch pc=12, inst=UNARY_NEGATIVE(arg=None, lineno=1145)
+2024-12-07 21:21:49,380 - numba.core.byteflow - DEBUG - stack ['$threshold10.3']
+2024-12-07 21:21:49,380 - numba.core.byteflow - DEBUG - dispatch pc=14, inst=LOAD_FAST(arg=3, lineno=1145)
+2024-12-07 21:21:49,380 - numba.core.byteflow - DEBUG - stack ['$12unary_negative.4']
+2024-12-07 21:21:49,380 - numba.core.byteflow - DEBUG - dispatch pc=16, inst=DUP_TOP(arg=None, lineno=1145)
+2024-12-07 21:21:49,380 - numba.core.byteflow - DEBUG - stack ['$12unary_negative.4', '$x014.5']
+2024-12-07 21:21:49,383 - numba.core.byteflow - DEBUG - dispatch pc=18, inst=ROT_THREE(arg=None, lineno=1145)
+2024-12-07 21:21:49,383 - numba.core.byteflow - DEBUG - stack ['$12unary_negative.4', '$x014.5', '$16dup_top.6']
+2024-12-07 21:21:49,383 - numba.core.byteflow - DEBUG - dispatch pc=20, inst=COMPARE_OP(arg=1, lineno=1145)
+2024-12-07 21:21:49,383 - numba.core.byteflow - DEBUG - stack ['$16dup_top.6', '$12unary_negative.4', '$x014.5']
+2024-12-07 21:21:49,383 - numba.core.byteflow - DEBUG - dispatch pc=22, inst=POP_JUMP_IF_FALSE(arg=32, lineno=1145)
+2024-12-07 21:21:49,387 - numba.core.byteflow - DEBUG - stack ['$16dup_top.6', '$20compare_op.7']
+2024-12-07 21:21:49,387 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=24, stack=('$16dup_top.6',), blockstack=(), npush=0), Edge(pc=32, stack=('$16dup_top.6',), blockstack=(), npush=0)]
+2024-12-07 21:21:49,387 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=24 nstack_initial=1), State(pc_initial=32 nstack_initial=1)])
+2024-12-07 21:21:49,391 - numba.core.byteflow - DEBUG - stack: ['$phi24.0']
+2024-12-07 21:21:49,391 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=24 nstack_initial=1)
+2024-12-07 21:21:49,391 - numba.core.byteflow - DEBUG - dispatch pc=24, inst=LOAD_FAST(arg=1, lineno=1145)
+2024-12-07 21:21:49,393 - numba.core.byteflow - DEBUG - stack ['$phi24.0']
+2024-12-07 21:21:49,393 - numba.core.byteflow - DEBUG - dispatch pc=26, inst=COMPARE_OP(arg=1, lineno=1145)
+2024-12-07 21:21:49,395 - numba.core.byteflow - DEBUG - stack ['$phi24.0', '$threshold24.1']
+2024-12-07 21:21:49,395 - numba.core.byteflow - DEBUG - dispatch pc=28, inst=POP_JUMP_IF_FALSE(arg=40, lineno=1145)
+2024-12-07 21:21:49,395 - numba.core.byteflow - DEBUG - stack ['$26compare_op.2']
+2024-12-07 21:21:49,395 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=30, stack=(), blockstack=(), npush=0), Edge(pc=40, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:49,395 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=32 nstack_initial=1), State(pc_initial=30 nstack_initial=0), State(pc_initial=40 nstack_initial=0)])
+2024-12-07 21:21:49,395 - numba.core.byteflow - DEBUG - stack: ['$phi32.0']
+2024-12-07 21:21:49,399 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=32 nstack_initial=1)
+2024-12-07 21:21:49,399 - numba.core.byteflow - DEBUG - dispatch pc=32, inst=POP_TOP(arg=None, lineno=1145)
+2024-12-07 21:21:49,399 - numba.core.byteflow - DEBUG - stack ['$phi32.0']
+2024-12-07 21:21:49,399 - numba.core.byteflow - DEBUG - dispatch pc=34, inst=JUMP_FORWARD(arg=4, lineno=1145)
+2024-12-07 21:21:49,399 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,399 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=40, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:49,403 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=30 nstack_initial=0), State(pc_initial=40 nstack_initial=0), State(pc_initial=40 nstack_initial=0)])
+2024-12-07 21:21:49,403 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:49,403 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=30 nstack_initial=0)
+2024-12-07 21:21:49,403 - numba.core.byteflow - DEBUG - dispatch pc=30, inst=JUMP_FORWARD(arg=4, lineno=1145)
+2024-12-07 21:21:49,405 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,405 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=36, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:49,407 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=40 nstack_initial=0), State(pc_initial=40 nstack_initial=0), State(pc_initial=36 nstack_initial=0)])
+2024-12-07 21:21:49,409 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:49,409 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=40 nstack_initial=0)
+2024-12-07 21:21:49,411 - numba.core.byteflow - DEBUG - dispatch pc=40, inst=LOAD_FAST(arg=0, lineno=1148)
+2024-12-07 21:21:49,411 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,411 - numba.core.byteflow - DEBUG - dispatch pc=42, inst=LOAD_CONST(arg=2, lineno=1148)
+2024-12-07 21:21:49,413 - numba.core.byteflow - DEBUG - stack ['$x40.0']
+2024-12-07 21:21:49,413 - numba.core.byteflow - DEBUG - dispatch pc=44, inst=BINARY_SUBSCR(arg=None, lineno=1148)
+2024-12-07 21:21:49,415 - numba.core.byteflow - DEBUG - stack ['$x40.0', '$const42.1']
+2024-12-07 21:21:49,415 - numba.core.byteflow - DEBUG - dispatch pc=46, inst=STORE_FAST(arg=4, lineno=1148)
+2024-12-07 21:21:49,479 - numba.core.byteflow - DEBUG - stack ['$44binary_subscr.2']
+2024-12-07 21:21:49,484 - numba.core.byteflow - DEBUG - dispatch pc=48, inst=LOAD_FAST(arg=1, lineno=1149)
+2024-12-07 21:21:49,491 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,493 - numba.core.byteflow - DEBUG - dispatch pc=50, inst=UNARY_NEGATIVE(arg=None, lineno=1149)
+2024-12-07 21:21:49,494 - numba.core.byteflow - DEBUG - stack ['$threshold48.3']
+2024-12-07 21:21:49,494 - numba.core.byteflow - DEBUG - dispatch pc=52, inst=LOAD_FAST(arg=4, lineno=1149)
+2024-12-07 21:21:49,495 - numba.core.byteflow - DEBUG - stack ['$50unary_negative.4']
+2024-12-07 21:21:49,495 - numba.core.byteflow - DEBUG - dispatch pc=54, inst=DUP_TOP(arg=None, lineno=1149)
+2024-12-07 21:21:49,523 - numba.core.byteflow - DEBUG - stack ['$50unary_negative.4', '$x152.5']
+2024-12-07 21:21:49,533 - numba.core.byteflow - DEBUG - dispatch pc=56, inst=ROT_THREE(arg=None, lineno=1149)
+2024-12-07 21:21:49,536 - numba.core.byteflow - DEBUG - stack ['$50unary_negative.4', '$x152.5', '$54dup_top.6']
+2024-12-07 21:21:49,538 - numba.core.byteflow - DEBUG - dispatch pc=58, inst=COMPARE_OP(arg=1, lineno=1149)
+2024-12-07 21:21:49,542 - numba.core.byteflow - DEBUG - stack ['$54dup_top.6', '$50unary_negative.4', '$x152.5']
+2024-12-07 21:21:49,546 - numba.core.byteflow - DEBUG - dispatch pc=60, inst=POP_JUMP_IF_FALSE(arg=70, lineno=1149)
+2024-12-07 21:21:49,548 - numba.core.byteflow - DEBUG - stack ['$54dup_top.6', '$58compare_op.7']
+2024-12-07 21:21:49,550 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=62, stack=('$54dup_top.6',), blockstack=(), npush=0), Edge(pc=70, stack=('$54dup_top.6',), blockstack=(), npush=0)]
+2024-12-07 21:21:49,556 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=40 nstack_initial=0), State(pc_initial=36 nstack_initial=0), State(pc_initial=62 nstack_initial=1), State(pc_initial=70 nstack_initial=1)])
+2024-12-07 21:21:49,560 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=36 nstack_initial=0), State(pc_initial=62 nstack_initial=1), State(pc_initial=70 nstack_initial=1)])
+2024-12-07 21:21:49,653 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:49,653 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=36 nstack_initial=0)
+2024-12-07 21:21:49,656 - numba.core.byteflow - DEBUG - dispatch pc=36, inst=LOAD_CONST(arg=1, lineno=1146)
+2024-12-07 21:21:49,656 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,656 - numba.core.byteflow - DEBUG - dispatch pc=38, inst=STORE_FAST(arg=3, lineno=1146)
+2024-12-07 21:21:49,656 - numba.core.byteflow - DEBUG - stack ['$const36.0']
+2024-12-07 21:21:49,661 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=40, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:49,667 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=62 nstack_initial=1), State(pc_initial=70 nstack_initial=1), State(pc_initial=40 nstack_initial=0)])
+2024-12-07 21:21:49,667 - numba.core.byteflow - DEBUG - stack: ['$phi62.0']
+2024-12-07 21:21:49,671 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=62 nstack_initial=1)
+2024-12-07 21:21:49,671 - numba.core.byteflow - DEBUG - dispatch pc=62, inst=LOAD_FAST(arg=1, lineno=1149)
+2024-12-07 21:21:49,673 - numba.core.byteflow - DEBUG - stack ['$phi62.0']
+2024-12-07 21:21:49,675 - numba.core.byteflow - DEBUG - dispatch pc=64, inst=COMPARE_OP(arg=1, lineno=1149)
+2024-12-07 21:21:49,678 - numba.core.byteflow - DEBUG - stack ['$phi62.0', '$threshold62.1']
+2024-12-07 21:21:49,678 - numba.core.byteflow - DEBUG - dispatch pc=66, inst=POP_JUMP_IF_FALSE(arg=78, lineno=1149)
+2024-12-07 21:21:49,680 - numba.core.byteflow - DEBUG - stack ['$64compare_op.2']
+2024-12-07 21:21:49,680 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=68, stack=(), blockstack=(), npush=0), Edge(pc=78, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:49,680 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=70 nstack_initial=1), State(pc_initial=40 nstack_initial=0), State(pc_initial=68 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-07 21:21:49,680 - numba.core.byteflow - DEBUG - stack: ['$phi70.0']
+2024-12-07 21:21:49,684 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=70 nstack_initial=1)
+2024-12-07 21:21:49,684 - numba.core.byteflow - DEBUG - dispatch pc=70, inst=POP_TOP(arg=None, lineno=1149)
+2024-12-07 21:21:49,684 - numba.core.byteflow - DEBUG - stack ['$phi70.0']
+2024-12-07 21:21:49,704 - numba.core.byteflow - DEBUG - dispatch pc=72, inst=JUMP_FORWARD(arg=4, lineno=1149)
+2024-12-07 21:21:49,708 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,719 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=78, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:49,724 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=40 nstack_initial=0), State(pc_initial=68 nstack_initial=0), State(pc_initial=78 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-07 21:21:49,727 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=68 nstack_initial=0), State(pc_initial=78 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-07 21:21:49,739 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:49,744 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=68 nstack_initial=0)
+2024-12-07 21:21:49,745 - numba.core.byteflow - DEBUG - dispatch pc=68, inst=JUMP_FORWARD(arg=4, lineno=1149)
+2024-12-07 21:21:49,747 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,754 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=74, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:49,754 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=78 nstack_initial=0), State(pc_initial=78 nstack_initial=0), State(pc_initial=74 nstack_initial=0)])
+2024-12-07 21:21:49,759 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:49,760 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=78 nstack_initial=0)
+2024-12-07 21:21:49,761 - numba.core.byteflow - DEBUG - dispatch pc=78, inst=LOAD_FAST(arg=2, lineno=1152)
+2024-12-07 21:21:49,762 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,763 - numba.core.byteflow - DEBUG - dispatch pc=80, inst=POP_JUMP_IF_FALSE(arg=102, lineno=1152)
+2024-12-07 21:21:49,764 - numba.core.byteflow - DEBUG - stack ['$zero_pos78.0']
+2024-12-07 21:21:49,765 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=82, stack=(), blockstack=(), npush=0), Edge(pc=102, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:49,767 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=78 nstack_initial=0), State(pc_initial=74 nstack_initial=0), State(pc_initial=82 nstack_initial=0), State(pc_initial=102 nstack_initial=0)])
+2024-12-07 21:21:49,767 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=74 nstack_initial=0), State(pc_initial=82 nstack_initial=0), State(pc_initial=102 nstack_initial=0)])
+2024-12-07 21:21:49,769 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:49,770 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=74 nstack_initial=0)
+2024-12-07 21:21:49,770 - numba.core.byteflow - DEBUG - dispatch pc=74, inst=LOAD_CONST(arg=1, lineno=1150)
+2024-12-07 21:21:49,771 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,772 - numba.core.byteflow - DEBUG - dispatch pc=76, inst=STORE_FAST(arg=4, lineno=1150)
+2024-12-07 21:21:49,773 - numba.core.byteflow - DEBUG - stack ['$const74.0']
+2024-12-07 21:21:49,775 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=78, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:49,776 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=82 nstack_initial=0), State(pc_initial=102 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-07 21:21:49,776 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:49,777 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=82 nstack_initial=0)
+2024-12-07 21:21:49,777 - numba.core.byteflow - DEBUG - dispatch pc=82, inst=LOAD_GLOBAL(arg=0, lineno=1153)
+2024-12-07 21:21:49,777 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,777 - numba.core.byteflow - DEBUG - dispatch pc=84, inst=LOAD_METHOD(arg=1, lineno=1153)
+2024-12-07 21:21:49,781 - numba.core.byteflow - DEBUG - stack ['$82load_global.0']
+2024-12-07 21:21:49,781 - numba.core.byteflow - DEBUG - dispatch pc=86, inst=LOAD_FAST(arg=3, lineno=1153)
+2024-12-07 21:21:49,781 - numba.core.byteflow - DEBUG - stack ['$84load_method.1']
+2024-12-07 21:21:49,784 - numba.core.byteflow - DEBUG - dispatch pc=88, inst=CALL_METHOD(arg=1, lineno=1153)
+2024-12-07 21:21:49,784 - numba.core.byteflow - DEBUG - stack ['$84load_method.1', '$x086.2']
+2024-12-07 21:21:49,786 - numba.core.byteflow - DEBUG - dispatch pc=90, inst=LOAD_GLOBAL(arg=0, lineno=1153)
+2024-12-07 21:21:49,786 - numba.core.byteflow - DEBUG - stack ['$88call_method.3']
+2024-12-07 21:21:49,786 - numba.core.byteflow - DEBUG - dispatch pc=92, inst=LOAD_METHOD(arg=1, lineno=1153)
+2024-12-07 21:21:49,786 - numba.core.byteflow - DEBUG - stack ['$88call_method.3', '$90load_global.4']
+2024-12-07 21:21:49,786 - numba.core.byteflow - DEBUG - dispatch pc=94, inst=LOAD_FAST(arg=4, lineno=1153)
+2024-12-07 21:21:49,790 - numba.core.byteflow - DEBUG - stack ['$88call_method.3', '$92load_method.5']
+2024-12-07 21:21:49,790 - numba.core.byteflow - DEBUG - dispatch pc=96, inst=CALL_METHOD(arg=1, lineno=1153)
+2024-12-07 21:21:49,792 - numba.core.byteflow - DEBUG - stack ['$88call_method.3', '$92load_method.5', '$x194.6']
+2024-12-07 21:21:49,793 - numba.core.byteflow - DEBUG - dispatch pc=98, inst=COMPARE_OP(arg=3, lineno=1153)
+2024-12-07 21:21:49,794 - numba.core.byteflow - DEBUG - stack ['$88call_method.3', '$96call_method.7']
+2024-12-07 21:21:49,794 - numba.core.byteflow - DEBUG - dispatch pc=100, inst=RETURN_VALUE(arg=None, lineno=1153)
+2024-12-07 21:21:49,794 - numba.core.byteflow - DEBUG - stack ['$98compare_op.8']
+2024-12-07 21:21:49,794 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-07 21:21:49,794 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=102 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-07 21:21:49,799 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:49,799 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=102 nstack_initial=0)
+2024-12-07 21:21:49,799 - numba.core.byteflow - DEBUG - dispatch pc=102, inst=LOAD_GLOBAL(arg=0, lineno=1155)
+2024-12-07 21:21:49,799 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:49,799 - numba.core.byteflow - DEBUG - dispatch pc=104, inst=LOAD_METHOD(arg=2, lineno=1155)
+2024-12-07 21:21:49,799 - numba.core.byteflow - DEBUG - stack ['$102load_global.0']
+2024-12-07 21:21:49,803 - numba.core.byteflow - DEBUG - dispatch pc=106, inst=LOAD_FAST(arg=3, lineno=1155)
+2024-12-07 21:21:49,803 - numba.core.byteflow - DEBUG - stack ['$104load_method.1']
+2024-12-07 21:21:49,803 - numba.core.byteflow - DEBUG - dispatch pc=108, inst=CALL_METHOD(arg=1, lineno=1155)
+2024-12-07 21:21:49,803 - numba.core.byteflow - DEBUG - stack ['$104load_method.1', '$x0106.2']
+2024-12-07 21:21:49,807 - numba.core.byteflow - DEBUG - dispatch pc=110, inst=LOAD_GLOBAL(arg=0, lineno=1155)
+2024-12-07 21:21:49,807 - numba.core.byteflow - DEBUG - stack ['$108call_method.3']
+2024-12-07 21:21:49,807 - numba.core.byteflow - DEBUG - dispatch pc=112, inst=LOAD_METHOD(arg=2, lineno=1155)
+2024-12-07 21:21:49,807 - numba.core.byteflow - DEBUG - stack ['$108call_method.3', '$110load_global.4']
+2024-12-07 21:21:49,811 - numba.core.byteflow - DEBUG - dispatch pc=114, inst=LOAD_FAST(arg=4, lineno=1155)
+2024-12-07 21:21:49,811 - numba.core.byteflow - DEBUG - stack ['$108call_method.3', '$112load_method.5']
+2024-12-07 21:21:49,813 - numba.core.byteflow - DEBUG - dispatch pc=116, inst=CALL_METHOD(arg=1, lineno=1155)
+2024-12-07 21:21:49,813 - numba.core.byteflow - DEBUG - stack ['$108call_method.3', '$112load_method.5', '$x1114.6']
+2024-12-07 21:21:49,815 - numba.core.byteflow - DEBUG - dispatch pc=118, inst=COMPARE_OP(arg=3, lineno=1155)
+2024-12-07 21:21:49,815 - numba.core.byteflow - DEBUG - stack ['$108call_method.3', '$116call_method.7']
+2024-12-07 21:21:49,815 - numba.core.byteflow - DEBUG - dispatch pc=120, inst=RETURN_VALUE(arg=None, lineno=1155)
+2024-12-07 21:21:49,815 - numba.core.byteflow - DEBUG - stack ['$118compare_op.8']
+2024-12-07 21:21:49,815 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-07 21:21:49,819 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=78 nstack_initial=0)])
+2024-12-07 21:21:49,819 - numba.core.byteflow - DEBUG - -------------------------Prune PHIs-------------------------
+2024-12-07 21:21:49,819 - numba.core.byteflow - DEBUG - Used_phis: defaultdict(<class 'set'>,
+            {State(pc_initial=0 nstack_initial=0): set(),
+             State(pc_initial=24 nstack_initial=1): {'$phi24.0'},
+             State(pc_initial=30 nstack_initial=0): set(),
+             State(pc_initial=32 nstack_initial=1): set(),
+             State(pc_initial=36 nstack_initial=0): set(),
+             State(pc_initial=40 nstack_initial=0): set(),
+             State(pc_initial=62 nstack_initial=1): {'$phi62.0'},
+             State(pc_initial=68 nstack_initial=0): set(),
+             State(pc_initial=70 nstack_initial=1): set(),
+             State(pc_initial=74 nstack_initial=0): set(),
+             State(pc_initial=78 nstack_initial=0): set(),
+             State(pc_initial=82 nstack_initial=0): set(),
+             State(pc_initial=102 nstack_initial=0): set()})
+2024-12-07 21:21:49,824 - numba.core.byteflow - DEBUG - defmap: {'$phi24.0': State(pc_initial=0 nstack_initial=0),
+ '$phi32.0': State(pc_initial=0 nstack_initial=0),
+ '$phi62.0': State(pc_initial=40 nstack_initial=0),
+ '$phi70.0': State(pc_initial=40 nstack_initial=0)}
+2024-12-07 21:21:49,828 - numba.core.byteflow - DEBUG - phismap: defaultdict(<class 'set'>,
+            {'$phi24.0': {('$16dup_top.6',
+                           State(pc_initial=0 nstack_initial=0))},
+             '$phi32.0': {('$16dup_top.6',
+                           State(pc_initial=0 nstack_initial=0))},
+             '$phi62.0': {('$54dup_top.6',
+                           State(pc_initial=40 nstack_initial=0))},
+             '$phi70.0': {('$54dup_top.6',
+                           State(pc_initial=40 nstack_initial=0))}})
+2024-12-07 21:21:49,828 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi24.0': {('$16dup_top.6',
+                           State(pc_initial=0 nstack_initial=0))},
+             '$phi32.0': {('$16dup_top.6',
+                           State(pc_initial=0 nstack_initial=0))},
+             '$phi62.0': {('$54dup_top.6',
+                           State(pc_initial=40 nstack_initial=0))},
+             '$phi70.0': {('$54dup_top.6',
+                           State(pc_initial=40 nstack_initial=0))}})
+2024-12-07 21:21:49,833 - numba.core.byteflow - DEBUG - keep phismap: {'$phi24.0': {('$16dup_top.6', State(pc_initial=0 nstack_initial=0))},
+ '$phi62.0': {('$54dup_top.6', State(pc_initial=40 nstack_initial=0))}}
+2024-12-07 21:21:49,833 - numba.core.byteflow - DEBUG - new_out: defaultdict(<class 'dict'>,
+            {State(pc_initial=0 nstack_initial=0): {'$phi24.0': '$16dup_top.6'},
+             State(pc_initial=40 nstack_initial=0): {'$phi62.0': '$54dup_top.6'}})
+2024-12-07 21:21:49,836 - numba.core.byteflow - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2024-12-07 21:21:49,836 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$x2.0'}), (4, {'res': '$const4.1'}), (6, {'index': '$const4.1', 'target': '$x2.0', 'res': '$6binary_subscr.2'}), (8, {'value': '$6binary_subscr.2'}), (10, {'res': '$threshold10.3'}), (12, {'value': '$threshold10.3', 'res': '$12unary_negative.4'}), (14, {'res': '$x014.5'}), (16, {'orig': ['$x014.5'], 'duped': ['$16dup_top.6']}), (20, {'lhs': '$12unary_negative.4', 'rhs': '$x014.5', 'res': '$20compare_op.7'}), (22, {'pred': '$20compare_op.7'})), outgoing_phis={'$phi24.0': '$16dup_top.6'}, blockstack=(), active_try_block=None, outgoing_edgepushed={24: ('$16dup_top.6',), 32: ('$16dup_top.6',)})
+2024-12-07 21:21:49,840 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=24 nstack_initial=1):
+AdaptBlockInfo(insts=((24, {'res': '$threshold24.1'}), (26, {'lhs': '$phi24.0', 'rhs': '$threshold24.1', 'res': '$26compare_op.2'}), (28, {'pred': '$26compare_op.2'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={30: (), 40: ()})
+2024-12-07 21:21:49,840 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=30 nstack_initial=0):
+AdaptBlockInfo(insts=((30, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={36: ()})
+2024-12-07 21:21:49,843 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=32 nstack_initial=1):
+AdaptBlockInfo(insts=((34, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={40: ()})
+2024-12-07 21:21:49,843 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=36 nstack_initial=0):
+AdaptBlockInfo(insts=((36, {'res': '$const36.0'}), (38, {'value': '$const36.0'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={40: ()})
+2024-12-07 21:21:49,846 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=40 nstack_initial=0):
+AdaptBlockInfo(insts=((40, {'res': '$x40.0'}), (42, {'res': '$const42.1'}), (44, {'index': '$const42.1', 'target': '$x40.0', 'res': '$44binary_subscr.2'}), (46, {'value': '$44binary_subscr.2'}), (48, {'res': '$threshold48.3'}), (50, {'value': '$threshold48.3', 'res': '$50unary_negative.4'}), (52, {'res': '$x152.5'}), (54, {'orig': ['$x152.5'], 'duped': ['$54dup_top.6']}), (58, {'lhs': '$50unary_negative.4', 'rhs': '$x152.5', 'res': '$58compare_op.7'}), (60, {'pred': '$58compare_op.7'})), outgoing_phis={'$phi62.0': '$54dup_top.6'}, blockstack=(), active_try_block=None, outgoing_edgepushed={62: ('$54dup_top.6',), 70: ('$54dup_top.6',)})
+2024-12-07 21:21:49,847 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=62 nstack_initial=1):
+AdaptBlockInfo(insts=((62, {'res': '$threshold62.1'}), (64, {'lhs': '$phi62.0', 'rhs': '$threshold62.1', 'res': '$64compare_op.2'}), (66, {'pred': '$64compare_op.2'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={68: (), 78: ()})
+2024-12-07 21:21:49,853 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=68 nstack_initial=0):
+AdaptBlockInfo(insts=((68, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={74: ()})
+2024-12-07 21:21:49,854 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=70 nstack_initial=1):
+AdaptBlockInfo(insts=((72, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={78: ()})
+2024-12-07 21:21:49,854 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=74 nstack_initial=0):
+AdaptBlockInfo(insts=((74, {'res': '$const74.0'}), (76, {'value': '$const74.0'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={78: ()})
+2024-12-07 21:21:49,856 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=78 nstack_initial=0):
+AdaptBlockInfo(insts=((78, {'res': '$zero_pos78.0'}), (80, {'pred': '$zero_pos78.0'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={82: (), 102: ()})
+2024-12-07 21:21:49,856 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=82 nstack_initial=0):
+AdaptBlockInfo(insts=((82, {'res': '$82load_global.0'}), (84, {'item': '$82load_global.0', 'res': '$84load_method.1'}), (86, {'res': '$x086.2'}), (88, {'func': '$84load_method.1', 'args': ['$x086.2'], 'res': '$88call_method.3'}), (90, {'res': '$90load_global.4'}), (92, {'item': '$90load_global.4', 'res': '$92load_method.5'}), (94, {'res': '$x194.6'}), (96, {'func': '$92load_method.5', 'args': ['$x194.6'], 'res': '$96call_method.7'}), (98, {'lhs': '$88call_method.3', 'rhs': '$96call_method.7', 'res': '$98compare_op.8'}), (100, {'retval': '$98compare_op.8', 'castval': '$100return_value.9'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-07 21:21:49,860 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=102 nstack_initial=0):
+AdaptBlockInfo(insts=((102, {'res': '$102load_global.0'}), (104, {'item': '$102load_global.0', 'res': '$104load_method.1'}), (106, {'res': '$x0106.2'}), (108, {'func': '$104load_method.1', 'args': ['$x0106.2'], 'res': '$108call_method.3'}), (110, {'res': '$110load_global.4'}), (112, {'item': '$110load_global.4', 'res': '$112load_method.5'}), (114, {'res': '$x1114.6'}), (116, {'func': '$112load_method.5', 'args': ['$x1114.6'], 'res': '$116call_method.7'}), (118, {'lhs': '$108call_method.3', 'rhs': '$116call_method.7', 'res': '$118compare_op.8'}), (120, {'retval': '$118compare_op.8', 'castval': '$120return_value.9'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-07 21:21:49,869 - numba.core.interpreter - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    threshold = arg(1, name=threshold)       ['threshold']
+    zero_pos = arg(2, name=zero_pos)         ['zero_pos']
+    $const4.1 = const(int, 0)                ['$const4.1']
+    x0 = getitem(value=x, index=$const4.1, fn=<built-in function getitem>) ['$const4.1', 'x', 'x0']
+    $12unary_negative.4 = unary(fn=<built-in function neg>, value=threshold) ['$12unary_negative.4', 'threshold']
+    $20compare_op.7 = $12unary_negative.4 <= x0 ['$12unary_negative.4', '$20compare_op.7', 'x0']
+    bool22 = global(bool: <class 'bool'>)    ['bool22']
+    $22pred = call bool22($20compare_op.7, func=bool22, args=(Var($20compare_op.7, audio.py:1145),), kws=(), vararg=None, varkwarg=None, target=None) ['$20compare_op.7', '$22pred', 'bool22']
+    $phi24.0 = x0                            ['$phi24.0', 'x0']
+    branch $22pred, 24, 32                   ['$22pred']
+label 24:
+    $26compare_op.2 = $phi24.0 <= threshold  ['$26compare_op.2', '$phi24.0', 'threshold']
+    bool28 = global(bool: <class 'bool'>)    ['bool28']
+    $28pred = call bool28($26compare_op.2, func=bool28, args=(Var($26compare_op.2, audio.py:1145),), kws=(), vararg=None, varkwarg=None, target=None) ['$26compare_op.2', '$28pred', 'bool28']
+    branch $28pred, 30, 40                   ['$28pred']
+label 30:
+    jump 36                                  []
+label 32:
+    jump 40                                  []
+label 36:
+    x0 = const(int, 0)                       ['x0']
+    jump 40                                  []
+label 40:
+    $const42.1 = const(int, -1)              ['$const42.1']
+    x1 = getitem(value=x, index=$const42.1, fn=<built-in function getitem>) ['$const42.1', 'x', 'x1']
+    $50unary_negative.4 = unary(fn=<built-in function neg>, value=threshold) ['$50unary_negative.4', 'threshold']
+    $58compare_op.7 = $50unary_negative.4 <= x1 ['$50unary_negative.4', '$58compare_op.7', 'x1']
+    bool60 = global(bool: <class 'bool'>)    ['bool60']
+    $60pred = call bool60($58compare_op.7, func=bool60, args=(Var($58compare_op.7, audio.py:1149),), kws=(), vararg=None, varkwarg=None, target=None) ['$58compare_op.7', '$60pred', 'bool60']
+    $phi62.0 = x1                            ['$phi62.0', 'x1']
+    branch $60pred, 62, 70                   ['$60pred']
+label 62:
+    $64compare_op.2 = $phi62.0 <= threshold  ['$64compare_op.2', '$phi62.0', 'threshold']
+    bool66 = global(bool: <class 'bool'>)    ['bool66']
+    $66pred = call bool66($64compare_op.2, func=bool66, args=(Var($64compare_op.2, audio.py:1149),), kws=(), vararg=None, varkwarg=None, target=None) ['$64compare_op.2', '$66pred', 'bool66']
+    branch $66pred, 68, 78                   ['$66pred']
+label 68:
+    jump 74                                  []
+label 70:
+    jump 78                                  []
+label 74:
+    x1 = const(int, 0)                       ['x1']
+    jump 78                                  []
+label 78:
+    bool80 = global(bool: <class 'bool'>)    ['bool80']
+    $80pred = call bool80(zero_pos, func=bool80, args=(Var(zero_pos, audio.py:1141),), kws=(), vararg=None, varkwarg=None, target=None) ['$80pred', 'bool80', 'zero_pos']
+    branch $80pred, 82, 102                  ['$80pred']
+label 82:
+    $82load_global.0 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$82load_global.0']
+    $84load_method.1 = getattr(value=$82load_global.0, attr=signbit) ['$82load_global.0', '$84load_method.1']
+    $88call_method.3 = call $84load_method.1(x0, func=$84load_method.1, args=[Var(x0, audio.py:1144)], kws=(), vararg=None, varkwarg=None, target=None) ['$84load_method.1', '$88call_method.3', 'x0']
+    $90load_global.4 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$90load_global.4']
+    $92load_method.5 = getattr(value=$90load_global.4, attr=signbit) ['$90load_global.4', '$92load_method.5']
+    $96call_method.7 = call $92load_method.5(x1, func=$92load_method.5, args=[Var(x1, audio.py:1148)], kws=(), vararg=None, varkwarg=None, target=None) ['$92load_method.5', '$96call_method.7', 'x1']
+    $98compare_op.8 = $88call_method.3 != $96call_method.7 ['$88call_method.3', '$96call_method.7', '$98compare_op.8']
+    $100return_value.9 = cast(value=$98compare_op.8) ['$100return_value.9', '$98compare_op.8']
+    return $100return_value.9                ['$100return_value.9']
+label 102:
+    $102load_global.0 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$102load_global.0']
+    $104load_method.1 = getattr(value=$102load_global.0, attr=sign) ['$102load_global.0', '$104load_method.1']
+    $108call_method.3 = call $104load_method.1(x0, func=$104load_method.1, args=[Var(x0, audio.py:1144)], kws=(), vararg=None, varkwarg=None, target=None) ['$104load_method.1', '$108call_method.3', 'x0']
+    $110load_global.4 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$110load_global.4']
+    $112load_method.5 = getattr(value=$110load_global.4, attr=sign) ['$110load_global.4', '$112load_method.5']
+    $116call_method.7 = call $112load_method.5(x1, func=$112load_method.5, args=[Var(x1, audio.py:1148)], kws=(), vararg=None, varkwarg=None, target=None) ['$112load_method.5', '$116call_method.7', 'x1']
+    $118compare_op.8 = $108call_method.3 != $116call_method.7 ['$108call_method.3', '$116call_method.7', '$118compare_op.8']
+    $120return_value.9 = cast(value=$118compare_op.8) ['$118compare_op.8', '$120return_value.9']
+    return $120return_value.9                ['$120return_value.9']
+
+2024-12-07 21:21:50,620 - numba.core.byteflow - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1039)
+           2	LOAD_FAST(arg=0, lineno=1042)
+           4	LOAD_CONST(arg=1, lineno=1042)
+           6	BINARY_SUBSCR(arg=None, lineno=1042)
+           8	LOAD_FAST(arg=0, lineno=1042)
+          10	LOAD_CONST(arg=2, lineno=1042)
+          12	BINARY_SUBSCR(arg=None, lineno=1042)
+          14	COMPARE_OP(arg=4, lineno=1042)
+          16	LOAD_FAST(arg=0, lineno=1042)
+          18	LOAD_CONST(arg=1, lineno=1042)
+          20	BINARY_SUBSCR(arg=None, lineno=1042)
+          22	LOAD_FAST(arg=0, lineno=1042)
+          24	LOAD_CONST(arg=3, lineno=1042)
+          26	BINARY_SUBSCR(arg=None, lineno=1042)
+          28	COMPARE_OP(arg=5, lineno=1042)
+          30	BINARY_AND(arg=None, lineno=1042)
+          32	RETURN_VALUE(arg=None, lineno=1042)
+2024-12-07 21:21:50,623 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2024-12-07 21:21:50,624 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:50,625 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2024-12-07 21:21:50,625 - numba.core.byteflow - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1039)
+2024-12-07 21:21:50,627 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:50,627 - numba.core.byteflow - DEBUG - dispatch pc=2, inst=LOAD_FAST(arg=0, lineno=1042)
+2024-12-07 21:21:50,627 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:50,627 - numba.core.byteflow - DEBUG - dispatch pc=4, inst=LOAD_CONST(arg=1, lineno=1042)
+2024-12-07 21:21:50,627 - numba.core.byteflow - DEBUG - stack ['$x2.0']
+2024-12-07 21:21:50,627 - numba.core.byteflow - DEBUG - dispatch pc=6, inst=BINARY_SUBSCR(arg=None, lineno=1042)
+2024-12-07 21:21:50,632 - numba.core.byteflow - DEBUG - stack ['$x2.0', '$const4.1']
+2024-12-07 21:21:50,632 - numba.core.byteflow - DEBUG - dispatch pc=8, inst=LOAD_FAST(arg=0, lineno=1042)
+2024-12-07 21:21:50,634 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2']
+2024-12-07 21:21:50,634 - numba.core.byteflow - DEBUG - dispatch pc=10, inst=LOAD_CONST(arg=2, lineno=1042)
+2024-12-07 21:21:50,634 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3']
+2024-12-07 21:21:50,634 - numba.core.byteflow - DEBUG - dispatch pc=12, inst=BINARY_SUBSCR(arg=None, lineno=1042)
+2024-12-07 21:21:50,636 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3', '$const10.4']
+2024-12-07 21:21:50,636 - numba.core.byteflow - DEBUG - dispatch pc=14, inst=COMPARE_OP(arg=4, lineno=1042)
+2024-12-07 21:21:50,636 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$12binary_subscr.5']
+2024-12-07 21:21:50,636 - numba.core.byteflow - DEBUG - dispatch pc=16, inst=LOAD_FAST(arg=0, lineno=1042)
+2024-12-07 21:21:50,636 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6']
+2024-12-07 21:21:50,643 - numba.core.byteflow - DEBUG - dispatch pc=18, inst=LOAD_CONST(arg=1, lineno=1042)
+2024-12-07 21:21:50,645 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$x16.7']
+2024-12-07 21:21:50,645 - numba.core.byteflow - DEBUG - dispatch pc=20, inst=BINARY_SUBSCR(arg=None, lineno=1042)
+2024-12-07 21:21:50,645 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$x16.7', '$const18.8']
+2024-12-07 21:21:50,645 - numba.core.byteflow - DEBUG - dispatch pc=22, inst=LOAD_FAST(arg=0, lineno=1042)
+2024-12-07 21:21:50,649 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9']
+2024-12-07 21:21:50,649 - numba.core.byteflow - DEBUG - dispatch pc=24, inst=LOAD_CONST(arg=3, lineno=1042)
+2024-12-07 21:21:50,649 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$x22.10']
+2024-12-07 21:21:50,649 - numba.core.byteflow - DEBUG - dispatch pc=26, inst=BINARY_SUBSCR(arg=None, lineno=1042)
+2024-12-07 21:21:50,653 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$x22.10', '$const24.11']
+2024-12-07 21:21:50,653 - numba.core.byteflow - DEBUG - dispatch pc=28, inst=COMPARE_OP(arg=5, lineno=1042)
+2024-12-07 21:21:50,653 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$26binary_subscr.12']
+2024-12-07 21:21:50,659 - numba.core.byteflow - DEBUG - dispatch pc=30, inst=BINARY_AND(arg=None, lineno=1042)
+2024-12-07 21:21:50,664 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$28compare_op.13']
+2024-12-07 21:21:50,665 - numba.core.byteflow - DEBUG - dispatch pc=32, inst=RETURN_VALUE(arg=None, lineno=1042)
+2024-12-07 21:21:50,668 - numba.core.byteflow - DEBUG - stack ['$30binary_and.14']
+2024-12-07 21:21:50,672 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-07 21:21:50,673 - numba.core.byteflow - DEBUG - -------------------------Prune PHIs-------------------------
+2024-12-07 21:21:50,676 - numba.core.byteflow - DEBUG - Used_phis: defaultdict(<class 'set'>, {State(pc_initial=0 nstack_initial=0): set()})
+2024-12-07 21:21:50,677 - numba.core.byteflow - DEBUG - defmap: {}
+2024-12-07 21:21:50,677 - numba.core.byteflow - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2024-12-07 21:21:50,680 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2024-12-07 21:21:50,681 - numba.core.byteflow - DEBUG - keep phismap: {}
+2024-12-07 21:21:50,681 - numba.core.byteflow - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2024-12-07 21:21:50,681 - numba.core.byteflow - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2024-12-07 21:21:50,683 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$x2.0'}), (4, {'res': '$const4.1'}), (6, {'index': '$const4.1', 'target': '$x2.0', 'res': '$6binary_subscr.2'}), (8, {'res': '$x8.3'}), (10, {'res': '$const10.4'}), (12, {'index': '$const10.4', 'target': '$x8.3', 'res': '$12binary_subscr.5'}), (14, {'lhs': '$6binary_subscr.2', 'rhs': '$12binary_subscr.5', 'res': '$14compare_op.6'}), (16, {'res': '$x16.7'}), (18, {'res': '$const18.8'}), (20, {'index': '$const18.8', 'target': '$x16.7', 'res': '$20binary_subscr.9'}), (22, {'res': '$x22.10'}), (24, {'res': '$const24.11'}), (26, {'index': '$const24.11', 'target': '$x22.10', 'res': '$26binary_subscr.12'}), (28, {'lhs': '$20binary_subscr.9', 'rhs': '$26binary_subscr.12', 'res': '$28compare_op.13'}), (30, {'lhs': '$14compare_op.6', 'rhs': '$28compare_op.13', 'res': '$30binary_and.14'}), (32, {'retval': '$30binary_and.14', 'castval': '$32return_value.15'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-07 21:21:50,687 - numba.core.interpreter - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const4.1 = const(int, 0)                ['$const4.1']
+    $6binary_subscr.2 = getitem(value=x, index=$const4.1, fn=<built-in function getitem>) ['$6binary_subscr.2', '$const4.1', 'x']
+    $const10.4 = const(int, -1)              ['$const10.4']
+    $12binary_subscr.5 = getitem(value=x, index=$const10.4, fn=<built-in function getitem>) ['$12binary_subscr.5', '$const10.4', 'x']
+    $14compare_op.6 = $6binary_subscr.2 > $12binary_subscr.5 ['$12binary_subscr.5', '$14compare_op.6', '$6binary_subscr.2']
+    $const18.8 = const(int, 0)               ['$const18.8']
+    $20binary_subscr.9 = getitem(value=x, index=$const18.8, fn=<built-in function getitem>) ['$20binary_subscr.9', '$const18.8', 'x']
+    $const24.11 = const(int, 1)              ['$const24.11']
+    $26binary_subscr.12 = getitem(value=x, index=$const24.11, fn=<built-in function getitem>) ['$26binary_subscr.12', '$const24.11', 'x']
+    $28compare_op.13 = $20binary_subscr.9 >= $26binary_subscr.12 ['$20binary_subscr.9', '$26binary_subscr.12', '$28compare_op.13']
+    $30binary_and.14 = $14compare_op.6 & $28compare_op.13 ['$14compare_op.6', '$28compare_op.13', '$30binary_and.14']
+    $32return_value.15 = cast(value=$30binary_and.14) ['$30binary_and.14', '$32return_value.15']
+    return $32return_value.15                ['$32return_value.15']
+
+2024-12-07 21:21:50,697 - numba.core.byteflow - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1045)
+           2	LOAD_FAST(arg=0, lineno=1048)
+           4	LOAD_CONST(arg=1, lineno=1048)
+           6	BINARY_SUBSCR(arg=None, lineno=1048)
+           8	LOAD_FAST(arg=0, lineno=1048)
+          10	LOAD_CONST(arg=2, lineno=1048)
+          12	BINARY_SUBSCR(arg=None, lineno=1048)
+          14	COMPARE_OP(arg=0, lineno=1048)
+          16	LOAD_FAST(arg=0, lineno=1048)
+          18	LOAD_CONST(arg=1, lineno=1048)
+          20	BINARY_SUBSCR(arg=None, lineno=1048)
+          22	LOAD_FAST(arg=0, lineno=1048)
+          24	LOAD_CONST(arg=3, lineno=1048)
+          26	BINARY_SUBSCR(arg=None, lineno=1048)
+          28	COMPARE_OP(arg=1, lineno=1048)
+          30	BINARY_AND(arg=None, lineno=1048)
+          32	RETURN_VALUE(arg=None, lineno=1048)
+2024-12-07 21:21:50,702 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2024-12-07 21:21:50,704 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:50,704 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2024-12-07 21:21:50,706 - numba.core.byteflow - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1045)
+2024-12-07 21:21:50,711 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:50,711 - numba.core.byteflow - DEBUG - dispatch pc=2, inst=LOAD_FAST(arg=0, lineno=1048)
+2024-12-07 21:21:50,715 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:50,715 - numba.core.byteflow - DEBUG - dispatch pc=4, inst=LOAD_CONST(arg=1, lineno=1048)
+2024-12-07 21:21:50,715 - numba.core.byteflow - DEBUG - stack ['$x2.0']
+2024-12-07 21:21:50,715 - numba.core.byteflow - DEBUG - dispatch pc=6, inst=BINARY_SUBSCR(arg=None, lineno=1048)
+2024-12-07 21:21:50,718 - numba.core.byteflow - DEBUG - stack ['$x2.0', '$const4.1']
+2024-12-07 21:21:50,718 - numba.core.byteflow - DEBUG - dispatch pc=8, inst=LOAD_FAST(arg=0, lineno=1048)
+2024-12-07 21:21:50,718 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2']
+2024-12-07 21:21:50,718 - numba.core.byteflow - DEBUG - dispatch pc=10, inst=LOAD_CONST(arg=2, lineno=1048)
+2024-12-07 21:21:50,718 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3']
+2024-12-07 21:21:50,722 - numba.core.byteflow - DEBUG - dispatch pc=12, inst=BINARY_SUBSCR(arg=None, lineno=1048)
+2024-12-07 21:21:50,726 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3', '$const10.4']
+2024-12-07 21:21:50,727 - numba.core.byteflow - DEBUG - dispatch pc=14, inst=COMPARE_OP(arg=0, lineno=1048)
+2024-12-07 21:21:50,727 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$12binary_subscr.5']
+2024-12-07 21:21:50,731 - numba.core.byteflow - DEBUG - dispatch pc=16, inst=LOAD_FAST(arg=0, lineno=1048)
+2024-12-07 21:21:50,732 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6']
+2024-12-07 21:21:50,732 - numba.core.byteflow - DEBUG - dispatch pc=18, inst=LOAD_CONST(arg=1, lineno=1048)
+2024-12-07 21:21:50,732 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$x16.7']
+2024-12-07 21:21:50,735 - numba.core.byteflow - DEBUG - dispatch pc=20, inst=BINARY_SUBSCR(arg=None, lineno=1048)
+2024-12-07 21:21:50,735 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$x16.7', '$const18.8']
+2024-12-07 21:21:50,735 - numba.core.byteflow - DEBUG - dispatch pc=22, inst=LOAD_FAST(arg=0, lineno=1048)
+2024-12-07 21:21:50,735 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9']
+2024-12-07 21:21:50,735 - numba.core.byteflow - DEBUG - dispatch pc=24, inst=LOAD_CONST(arg=3, lineno=1048)
+2024-12-07 21:21:50,735 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$x22.10']
+2024-12-07 21:21:50,739 - numba.core.byteflow - DEBUG - dispatch pc=26, inst=BINARY_SUBSCR(arg=None, lineno=1048)
+2024-12-07 21:21:50,739 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$x22.10', '$const24.11']
+2024-12-07 21:21:50,741 - numba.core.byteflow - DEBUG - dispatch pc=28, inst=COMPARE_OP(arg=1, lineno=1048)
+2024-12-07 21:21:50,741 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$26binary_subscr.12']
+2024-12-07 21:21:50,748 - numba.core.byteflow - DEBUG - dispatch pc=30, inst=BINARY_AND(arg=None, lineno=1048)
+2024-12-07 21:21:50,748 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$28compare_op.13']
+2024-12-07 21:21:50,748 - numba.core.byteflow - DEBUG - dispatch pc=32, inst=RETURN_VALUE(arg=None, lineno=1048)
+2024-12-07 21:21:50,748 - numba.core.byteflow - DEBUG - stack ['$30binary_and.14']
+2024-12-07 21:21:50,748 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-07 21:21:50,748 - numba.core.byteflow - DEBUG - -------------------------Prune PHIs-------------------------
+2024-12-07 21:21:50,752 - numba.core.byteflow - DEBUG - Used_phis: defaultdict(<class 'set'>, {State(pc_initial=0 nstack_initial=0): set()})
+2024-12-07 21:21:50,753 - numba.core.byteflow - DEBUG - defmap: {}
+2024-12-07 21:21:50,753 - numba.core.byteflow - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2024-12-07 21:21:50,753 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2024-12-07 21:21:50,756 - numba.core.byteflow - DEBUG - keep phismap: {}
+2024-12-07 21:21:50,757 - numba.core.byteflow - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2024-12-07 21:21:50,757 - numba.core.byteflow - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2024-12-07 21:21:50,760 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$x2.0'}), (4, {'res': '$const4.1'}), (6, {'index': '$const4.1', 'target': '$x2.0', 'res': '$6binary_subscr.2'}), (8, {'res': '$x8.3'}), (10, {'res': '$const10.4'}), (12, {'index': '$const10.4', 'target': '$x8.3', 'res': '$12binary_subscr.5'}), (14, {'lhs': '$6binary_subscr.2', 'rhs': '$12binary_subscr.5', 'res': '$14compare_op.6'}), (16, {'res': '$x16.7'}), (18, {'res': '$const18.8'}), (20, {'index': '$const18.8', 'target': '$x16.7', 'res': '$20binary_subscr.9'}), (22, {'res': '$x22.10'}), (24, {'res': '$const24.11'}), (26, {'index': '$const24.11', 'target': '$x22.10', 'res': '$26binary_subscr.12'}), (28, {'lhs': '$20binary_subscr.9', 'rhs': '$26binary_subscr.12', 'res': '$28compare_op.13'}), (30, {'lhs': '$14compare_op.6', 'rhs': '$28compare_op.13', 'res': '$30binary_and.14'}), (32, {'retval': '$30binary_and.14', 'castval': '$32return_value.15'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-07 21:21:50,764 - numba.core.interpreter - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const4.1 = const(int, 0)                ['$const4.1']
+    $6binary_subscr.2 = getitem(value=x, index=$const4.1, fn=<built-in function getitem>) ['$6binary_subscr.2', '$const4.1', 'x']
+    $const10.4 = const(int, -1)              ['$const10.4']
+    $12binary_subscr.5 = getitem(value=x, index=$const10.4, fn=<built-in function getitem>) ['$12binary_subscr.5', '$const10.4', 'x']
+    $14compare_op.6 = $6binary_subscr.2 < $12binary_subscr.5 ['$12binary_subscr.5', '$14compare_op.6', '$6binary_subscr.2']
+    $const18.8 = const(int, 0)               ['$const18.8']
+    $20binary_subscr.9 = getitem(value=x, index=$const18.8, fn=<built-in function getitem>) ['$20binary_subscr.9', '$const18.8', 'x']
+    $const24.11 = const(int, 1)              ['$const24.11']
+    $26binary_subscr.12 = getitem(value=x, index=$const24.11, fn=<built-in function getitem>) ['$26binary_subscr.12', '$const24.11', 'x']
+    $28compare_op.13 = $20binary_subscr.9 <= $26binary_subscr.12 ['$20binary_subscr.9', '$26binary_subscr.12', '$28compare_op.13']
+    $30binary_and.14 = $14compare_op.6 & $28compare_op.13 ['$14compare_op.6', '$28compare_op.13', '$30binary_and.14']
+    $32return_value.15 = cast(value=$30binary_and.14) ['$30binary_and.14', '$32return_value.15']
+    return $32return_value.15                ['$32return_value.15']
+
+2024-12-07 21:21:51,523 - predict - DEBUG - Librosa success - Sample rate: 44100Hz, Length: 44100 samples
+2024-12-07 21:21:51,523 - predict - INFO - Loading model and scaler...
+2024-12-07 21:21:51,595 - predict - INFO - Model and scaler loaded successfully
+2024-12-07 21:21:51,600 - predict - INFO - Starting feature extraction...
+2024-12-07 21:21:51,600 - train_model - INFO - Starting feature extraction for: C:\Users\13576\AppData\Local\Temp\tmpg635c2_9.mp3
+2024-12-07 21:21:51,600 - train_model - INFO - Audio file info: 44100Hz, 2 channels
+2024-12-07 21:21:51,600 - train_model - INFO - Loading audio file...
+2024-12-07 21:21:51,740 - train_model - INFO - Successfully loaded audio: 1315631 samples, 44100Hz sample rate
+2024-12-07 21:21:51,741 - train_model - INFO - Audio duration: 29.83 seconds
+2024-12-07 21:21:51,741 - train_model - INFO - Extracting MFCC features...
+2024-12-07 21:21:51,791 - numba.core.byteflow - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=425)
+           2	LOAD_FAST(arg=0, lineno=428)
+           4	LOAD_CONST(arg=1, lineno=428)
+           6	BINARY_SUBSCR(arg=None, lineno=428)
+           8	LOAD_FAST(arg=0, lineno=428)
+          10	LOAD_CONST(arg=2, lineno=428)
+          12	BINARY_SUBSCR(arg=None, lineno=428)
+          14	BINARY_ADD(arg=None, lineno=428)
+          16	LOAD_CONST(arg=3, lineno=428)
+          18	LOAD_FAST(arg=0, lineno=428)
+          20	LOAD_CONST(arg=4, lineno=428)
+          22	BINARY_SUBSCR(arg=None, lineno=428)
+          24	BINARY_MULTIPLY(arg=None, lineno=428)
+          26	BINARY_SUBTRACT(arg=None, lineno=428)
+          28	STORE_FAST(arg=1, lineno=428)
+          30	LOAD_FAST(arg=0, lineno=429)
+          32	LOAD_CONST(arg=1, lineno=429)
+          34	BINARY_SUBSCR(arg=None, lineno=429)
+          36	LOAD_FAST(arg=0, lineno=429)
+          38	LOAD_CONST(arg=2, lineno=429)
+          40	BINARY_SUBSCR(arg=None, lineno=429)
+          42	BINARY_SUBTRACT(arg=None, lineno=429)
+          44	LOAD_CONST(arg=3, lineno=429)
+          46	BINARY_TRUE_DIVIDE(arg=None, lineno=429)
+          48	STORE_FAST(arg=2, lineno=429)
+          50	LOAD_GLOBAL(arg=0, lineno=431)
+          52	LOAD_METHOD(arg=1, lineno=431)
+          54	LOAD_FAST(arg=2, lineno=431)
+          56	CALL_METHOD(arg=1, lineno=431)
+          58	LOAD_GLOBAL(arg=0, lineno=431)
+          60	LOAD_METHOD(arg=1, lineno=431)
+          62	LOAD_FAST(arg=1, lineno=431)
+          64	CALL_METHOD(arg=1, lineno=431)
+          66	COMPARE_OP(arg=5, lineno=431)
+          68	POP_JUMP_IF_FALSE(arg=74, lineno=431)
+          70	LOAD_CONST(arg=4, lineno=434)
+          72	RETURN_VALUE(arg=None, lineno=434)
+>         74	LOAD_FAST(arg=2, lineno=436)
+          76	UNARY_NEGATIVE(arg=None, lineno=436)
+          78	LOAD_FAST(arg=1, lineno=436)
+          80	BINARY_TRUE_DIVIDE(arg=None, lineno=436)
+          82	RETURN_VALUE(arg=None, lineno=436)
+2024-12-07 21:21:51,797 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2024-12-07 21:21:51,798 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:51,798 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2024-12-07 21:21:51,798 - numba.core.byteflow - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=425)
+2024-12-07 21:21:51,798 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:51,798 - numba.core.byteflow - DEBUG - dispatch pc=2, inst=LOAD_FAST(arg=0, lineno=428)
+2024-12-07 21:21:51,802 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:51,804 - numba.core.byteflow - DEBUG - dispatch pc=4, inst=LOAD_CONST(arg=1, lineno=428)
+2024-12-07 21:21:51,804 - numba.core.byteflow - DEBUG - stack ['$x2.0']
+2024-12-07 21:21:51,806 - numba.core.byteflow - DEBUG - dispatch pc=6, inst=BINARY_SUBSCR(arg=None, lineno=428)
+2024-12-07 21:21:51,806 - numba.core.byteflow - DEBUG - stack ['$x2.0', '$const4.1']
+2024-12-07 21:21:51,806 - numba.core.byteflow - DEBUG - dispatch pc=8, inst=LOAD_FAST(arg=0, lineno=428)
+2024-12-07 21:21:51,806 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2']
+2024-12-07 21:21:51,806 - numba.core.byteflow - DEBUG - dispatch pc=10, inst=LOAD_CONST(arg=2, lineno=428)
+2024-12-07 21:21:51,810 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3']
+2024-12-07 21:21:51,810 - numba.core.byteflow - DEBUG - dispatch pc=12, inst=BINARY_SUBSCR(arg=None, lineno=428)
+2024-12-07 21:21:51,810 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3', '$const10.4']
+2024-12-07 21:21:51,813 - numba.core.byteflow - DEBUG - dispatch pc=14, inst=BINARY_ADD(arg=None, lineno=428)
+2024-12-07 21:21:51,814 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$12binary_subscr.5']
+2024-12-07 21:21:51,815 - numba.core.byteflow - DEBUG - dispatch pc=16, inst=LOAD_CONST(arg=3, lineno=428)
+2024-12-07 21:21:51,815 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6']
+2024-12-07 21:21:51,815 - numba.core.byteflow - DEBUG - dispatch pc=18, inst=LOAD_FAST(arg=0, lineno=428)
+2024-12-07 21:21:51,815 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$const16.7']
+2024-12-07 21:21:51,815 - numba.core.byteflow - DEBUG - dispatch pc=20, inst=LOAD_CONST(arg=4, lineno=428)
+2024-12-07 21:21:51,818 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$const16.7', '$x18.8']
+2024-12-07 21:21:51,818 - numba.core.byteflow - DEBUG - dispatch pc=22, inst=BINARY_SUBSCR(arg=None, lineno=428)
+2024-12-07 21:21:51,818 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$const16.7', '$x18.8', '$const20.9']
+2024-12-07 21:21:51,823 - numba.core.byteflow - DEBUG - dispatch pc=24, inst=BINARY_MULTIPLY(arg=None, lineno=428)
+2024-12-07 21:21:51,824 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$const16.7', '$22binary_subscr.10']
+2024-12-07 21:21:51,824 - numba.core.byteflow - DEBUG - dispatch pc=26, inst=BINARY_SUBTRACT(arg=None, lineno=428)
+2024-12-07 21:21:51,826 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$24binary_multiply.11']
+2024-12-07 21:21:51,827 - numba.core.byteflow - DEBUG - dispatch pc=28, inst=STORE_FAST(arg=1, lineno=428)
+2024-12-07 21:21:51,827 - numba.core.byteflow - DEBUG - stack ['$26binary_subtract.12']
+2024-12-07 21:21:51,828 - numba.core.byteflow - DEBUG - dispatch pc=30, inst=LOAD_FAST(arg=0, lineno=429)
+2024-12-07 21:21:51,830 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:51,832 - numba.core.byteflow - DEBUG - dispatch pc=32, inst=LOAD_CONST(arg=1, lineno=429)
+2024-12-07 21:21:51,833 - numba.core.byteflow - DEBUG - stack ['$x30.13']
+2024-12-07 21:21:51,834 - numba.core.byteflow - DEBUG - dispatch pc=34, inst=BINARY_SUBSCR(arg=None, lineno=429)
+2024-12-07 21:21:51,834 - numba.core.byteflow - DEBUG - stack ['$x30.13', '$const32.14']
+2024-12-07 21:21:51,835 - numba.core.byteflow - DEBUG - dispatch pc=36, inst=LOAD_FAST(arg=0, lineno=429)
+2024-12-07 21:21:51,836 - numba.core.byteflow - DEBUG - stack ['$34binary_subscr.15']
+2024-12-07 21:21:51,837 - numba.core.byteflow - DEBUG - dispatch pc=38, inst=LOAD_CONST(arg=2, lineno=429)
+2024-12-07 21:21:51,838 - numba.core.byteflow - DEBUG - stack ['$34binary_subscr.15', '$x36.16']
+2024-12-07 21:21:51,838 - numba.core.byteflow - DEBUG - dispatch pc=40, inst=BINARY_SUBSCR(arg=None, lineno=429)
+2024-12-07 21:21:51,839 - numba.core.byteflow - DEBUG - stack ['$34binary_subscr.15', '$x36.16', '$const38.17']
+2024-12-07 21:21:51,839 - numba.core.byteflow - DEBUG - dispatch pc=42, inst=BINARY_SUBTRACT(arg=None, lineno=429)
+2024-12-07 21:21:51,839 - numba.core.byteflow - DEBUG - stack ['$34binary_subscr.15', '$40binary_subscr.18']
+2024-12-07 21:21:51,839 - numba.core.byteflow - DEBUG - dispatch pc=44, inst=LOAD_CONST(arg=3, lineno=429)
+2024-12-07 21:21:51,843 - numba.core.byteflow - DEBUG - stack ['$42binary_subtract.19']
+2024-12-07 21:21:51,843 - numba.core.byteflow - DEBUG - dispatch pc=46, inst=BINARY_TRUE_DIVIDE(arg=None, lineno=429)
+2024-12-07 21:21:51,843 - numba.core.byteflow - DEBUG - stack ['$42binary_subtract.19', '$const44.20']
+2024-12-07 21:21:51,847 - numba.core.byteflow - DEBUG - dispatch pc=48, inst=STORE_FAST(arg=2, lineno=429)
+2024-12-07 21:21:51,848 - numba.core.byteflow - DEBUG - stack ['$46binary_true_divide.21']
+2024-12-07 21:21:51,849 - numba.core.byteflow - DEBUG - dispatch pc=50, inst=LOAD_GLOBAL(arg=0, lineno=431)
+2024-12-07 21:21:51,849 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:51,850 - numba.core.byteflow - DEBUG - dispatch pc=52, inst=LOAD_METHOD(arg=1, lineno=431)
+2024-12-07 21:21:51,851 - numba.core.byteflow - DEBUG - stack ['$50load_global.22']
+2024-12-07 21:21:51,851 - numba.core.byteflow - DEBUG - dispatch pc=54, inst=LOAD_FAST(arg=2, lineno=431)
+2024-12-07 21:21:51,851 - numba.core.byteflow - DEBUG - stack ['$52load_method.23']
+2024-12-07 21:21:51,853 - numba.core.byteflow - DEBUG - dispatch pc=56, inst=CALL_METHOD(arg=1, lineno=431)
+2024-12-07 21:21:51,853 - numba.core.byteflow - DEBUG - stack ['$52load_method.23', '$b54.24']
+2024-12-07 21:21:51,853 - numba.core.byteflow - DEBUG - dispatch pc=58, inst=LOAD_GLOBAL(arg=0, lineno=431)
+2024-12-07 21:21:51,853 - numba.core.byteflow - DEBUG - stack ['$56call_method.25']
+2024-12-07 21:21:51,856 - numba.core.byteflow - DEBUG - dispatch pc=60, inst=LOAD_METHOD(arg=1, lineno=431)
+2024-12-07 21:21:51,856 - numba.core.byteflow - DEBUG - stack ['$56call_method.25', '$58load_global.26']
+2024-12-07 21:21:51,856 - numba.core.byteflow - DEBUG - dispatch pc=62, inst=LOAD_FAST(arg=1, lineno=431)
+2024-12-07 21:21:51,856 - numba.core.byteflow - DEBUG - stack ['$56call_method.25', '$60load_method.27']
+2024-12-07 21:21:51,861 - numba.core.byteflow - DEBUG - dispatch pc=64, inst=CALL_METHOD(arg=1, lineno=431)
+2024-12-07 21:21:51,862 - numba.core.byteflow - DEBUG - stack ['$56call_method.25', '$60load_method.27', '$a62.28']
+2024-12-07 21:21:51,862 - numba.core.byteflow - DEBUG - dispatch pc=66, inst=COMPARE_OP(arg=5, lineno=431)
+2024-12-07 21:21:51,863 - numba.core.byteflow - DEBUG - stack ['$56call_method.25', '$64call_method.29']
+2024-12-07 21:21:51,864 - numba.core.byteflow - DEBUG - dispatch pc=68, inst=POP_JUMP_IF_FALSE(arg=74, lineno=431)
+2024-12-07 21:21:51,864 - numba.core.byteflow - DEBUG - stack ['$66compare_op.30']
+2024-12-07 21:21:51,864 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=70, stack=(), blockstack=(), npush=0), Edge(pc=74, stack=(), blockstack=(), npush=0)]
+2024-12-07 21:21:51,864 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=70 nstack_initial=0), State(pc_initial=74 nstack_initial=0)])
+2024-12-07 21:21:51,864 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:51,868 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=70 nstack_initial=0)
+2024-12-07 21:21:51,868 - numba.core.byteflow - DEBUG - dispatch pc=70, inst=LOAD_CONST(arg=4, lineno=434)
+2024-12-07 21:21:51,868 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:51,873 - numba.core.byteflow - DEBUG - dispatch pc=72, inst=RETURN_VALUE(arg=None, lineno=434)
+2024-12-07 21:21:51,876 - numba.core.byteflow - DEBUG - stack ['$const70.0']
+2024-12-07 21:21:51,876 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-07 21:21:51,876 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=74 nstack_initial=0)])
+2024-12-07 21:21:51,876 - numba.core.byteflow - DEBUG - stack: []
+2024-12-07 21:21:51,876 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=74 nstack_initial=0)
+2024-12-07 21:21:51,876 - numba.core.byteflow - DEBUG - dispatch pc=74, inst=LOAD_FAST(arg=2, lineno=436)
+2024-12-07 21:21:51,876 - numba.core.byteflow - DEBUG - stack []
+2024-12-07 21:21:51,881 - numba.core.byteflow - DEBUG - dispatch pc=76, inst=UNARY_NEGATIVE(arg=None, lineno=436)
+2024-12-07 21:21:51,881 - numba.core.byteflow - DEBUG - stack ['$b74.0']
+2024-12-07 21:21:51,881 - numba.core.byteflow - DEBUG - dispatch pc=78, inst=LOAD_FAST(arg=1, lineno=436)
+2024-12-07 21:21:51,881 - numba.core.byteflow - DEBUG - stack ['$76unary_negative.1']
+2024-12-07 21:21:51,883 - numba.core.byteflow - DEBUG - dispatch pc=80, inst=BINARY_TRUE_DIVIDE(arg=None, lineno=436)
+2024-12-07 21:21:51,883 - numba.core.byteflow - DEBUG - stack ['$76unary_negative.1', '$a78.2']
+2024-12-07 21:21:51,885 - numba.core.byteflow - DEBUG - dispatch pc=82, inst=RETURN_VALUE(arg=None, lineno=436)
+2024-12-07 21:21:51,885 - numba.core.byteflow - DEBUG - stack ['$80binary_true_divide.3']
+2024-12-07 21:21:51,889 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-07 21:21:51,891 - numba.core.byteflow - DEBUG - -------------------------Prune PHIs-------------------------
+2024-12-07 21:21:51,892 - numba.core.byteflow - DEBUG - Used_phis: defaultdict(<class 'set'>,
+            {State(pc_initial=0 nstack_initial=0): set(),
+             State(pc_initial=70 nstack_initial=0): set(),
+             State(pc_initial=74 nstack_initial=0): set()})
+2024-12-07 21:21:51,895 - numba.core.byteflow - DEBUG - defmap: {}
+2024-12-07 21:21:51,895 - numba.core.byteflow - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2024-12-07 21:21:51,895 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2024-12-07 21:21:51,895 - numba.core.byteflow - DEBUG - keep phismap: {}
+2024-12-07 21:21:51,898 - numba.core.byteflow - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2024-12-07 21:21:51,898 - numba.core.byteflow - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2024-12-07 21:21:51,898 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$x2.0'}), (4, {'res': '$const4.1'}), (6, {'index': '$const4.1', 'target': '$x2.0', 'res': '$6binary_subscr.2'}), (8, {'res': '$x8.3'}), (10, {'res': '$const10.4'}), (12, {'index': '$const10.4', 'target': '$x8.3', 'res': '$12binary_subscr.5'}), (14, {'lhs': '$6binary_subscr.2', 'rhs': '$12binary_subscr.5', 'res': '$14binary_add.6'}), (16, {'res': '$const16.7'}), (18, {'res': '$x18.8'}), (20, {'res': '$const20.9'}), (22, {'index': '$const20.9', 'target': '$x18.8', 'res': '$22binary_subscr.10'}), (24, {'lhs': '$const16.7', 'rhs': '$22binary_subscr.10', 'res': '$24binary_multiply.11'}), (26, {'lhs': '$14binary_add.6', 'rhs': '$24binary_multiply.11', 'res': '$26binary_subtract.12'}), (28, {'value': '$26binary_subtract.12'}), (30, {'res': '$x30.13'}), (32, {'res': '$const32.14'}), (34, {'index': '$const32.14', 'target': '$x30.13', 'res': '$34binary_subscr.15'}), (36, {'res': '$x36.16'}), (38, {'res': '$const38.17'}), (40, {'index': '$const38.17', 'target': '$x36.16', 'res': '$40binary_subscr.18'}), (42, {'lhs': '$34binary_subscr.15', 'rhs': '$40binary_subscr.18', 'res': '$42binary_subtract.19'}), (44, {'res': '$const44.20'}), (46, {'lhs': '$42binary_subtract.19', 'rhs': '$const44.20', 'res': '$46binary_true_divide.21'}), (48, {'value': '$46binary_true_divide.21'}), (50, {'res': '$50load_global.22'}), (52, {'item': '$50load_global.22', 'res': '$52load_method.23'}), (54, {'res': '$b54.24'}), (56, {'func': '$52load_method.23', 'args': ['$b54.24'], 'res': '$56call_method.25'}), (58, {'res': '$58load_global.26'}), (60, {'item': '$58load_global.26', 'res': '$60load_method.27'}), (62, {'res': '$a62.28'}), (64, {'func': '$60load_method.27', 'args': ['$a62.28'], 'res': '$64call_method.29'}), (66, {'lhs': '$56call_method.25', 'rhs': '$64call_method.29', 'res': '$66compare_op.30'}), (68, {'pred': '$66compare_op.30'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={70: (), 74: ()})
+2024-12-07 21:21:51,902 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=70 nstack_initial=0):
+AdaptBlockInfo(insts=((70, {'res': '$const70.0'}), (72, {'retval': '$const70.0', 'castval': '$72return_value.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-07 21:21:51,903 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=74 nstack_initial=0):
+AdaptBlockInfo(insts=((74, {'res': '$b74.0'}), (76, {'value': '$b74.0', 'res': '$76unary_negative.1'}), (78, {'res': '$a78.2'}), (80, {'lhs': '$76unary_negative.1', 'rhs': '$a78.2', 'res': '$80binary_true_divide.3'}), (82, {'retval': '$80binary_true_divide.3', 'castval': '$82return_value.4'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-07 21:21:51,906 - numba.core.interpreter - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const4.1 = const(int, 1)                ['$const4.1']
+    $6binary_subscr.2 = getitem(value=x, index=$const4.1, fn=<built-in function getitem>) ['$6binary_subscr.2', '$const4.1', 'x']
+    $const10.4 = const(int, -1)              ['$const10.4']
+    $12binary_subscr.5 = getitem(value=x, index=$const10.4, fn=<built-in function getitem>) ['$12binary_subscr.5', '$const10.4', 'x']
+    $14binary_add.6 = $6binary_subscr.2 + $12binary_subscr.5 ['$12binary_subscr.5', '$14binary_add.6', '$6binary_subscr.2']
+    $const16.7 = const(int, 2)               ['$const16.7']
+    $const20.9 = const(int, 0)               ['$const20.9']
+    $22binary_subscr.10 = getitem(value=x, index=$const20.9, fn=<built-in function getitem>) ['$22binary_subscr.10', '$const20.9', 'x']
+    $24binary_multiply.11 = $const16.7 * $22binary_subscr.10 ['$22binary_subscr.10', '$24binary_multiply.11', '$const16.7']
+    a = $14binary_add.6 - $24binary_multiply.11 ['$14binary_add.6', '$24binary_multiply.11', 'a']
+    $const32.14 = const(int, 1)              ['$const32.14']
+    $34binary_subscr.15 = getitem(value=x, index=$const32.14, fn=<built-in function getitem>) ['$34binary_subscr.15', '$const32.14', 'x']
+    $const38.17 = const(int, -1)             ['$const38.17']
+    $40binary_subscr.18 = getitem(value=x, index=$const38.17, fn=<built-in function getitem>) ['$40binary_subscr.18', '$const38.17', 'x']
+    $42binary_subtract.19 = $34binary_subscr.15 - $40binary_subscr.18 ['$34binary_subscr.15', '$40binary_subscr.18', '$42binary_subtract.19']
+    $const44.20 = const(int, 2)              ['$const44.20']
+    b = $42binary_subtract.19 / $const44.20  ['$42binary_subtract.19', '$const44.20', 'b']
+    $50load_global.22 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$50load_global.22']
+    $52load_method.23 = getattr(value=$50load_global.22, attr=abs) ['$50load_global.22', '$52load_method.23']
+    $56call_method.25 = call $52load_method.23(b, func=$52load_method.23, args=[Var(b, pitch.py:429)], kws=(), vararg=None, varkwarg=None, target=None) ['$52load_method.23', '$56call_method.25', 'b']
+    $58load_global.26 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$58load_global.26']
+    $60load_method.27 = getattr(value=$58load_global.26, attr=abs) ['$58load_global.26', '$60load_method.27']
+    $64call_method.29 = call $60load_method.27(a, func=$60load_method.27, args=[Var(a, pitch.py:428)], kws=(), vararg=None, varkwarg=None, target=None) ['$60load_method.27', '$64call_method.29', 'a']
+    $66compare_op.30 = $56call_method.25 >= $64call_method.29 ['$56call_method.25', '$64call_method.29', '$66compare_op.30']
+    bool68 = global(bool: <class 'bool'>)    ['bool68']
+    $68pred = call bool68($66compare_op.30, func=bool68, args=(Var($66compare_op.30, pitch.py:431),), kws=(), vararg=None, varkwarg=None, target=None) ['$66compare_op.30', '$68pred', 'bool68']
+    branch $68pred, 70, 74                   ['$68pred']
+label 70:
+    $const70.0 = const(int, 0)               ['$const70.0']
+    $72return_value.1 = cast(value=$const70.0) ['$72return_value.1', '$const70.0']
+    return $72return_value.1                 ['$72return_value.1']
+label 74:
+    $76unary_negative.1 = unary(fn=<built-in function neg>, value=b) ['$76unary_negative.1', 'b']
+    $80binary_true_divide.3 = $76unary_negative.1 / a ['$76unary_negative.1', '$80binary_true_divide.3', 'a']
+    $82return_value.4 = cast(value=$80binary_true_divide.3) ['$80binary_true_divide.3', '$82return_value.4']
+    return $82return_value.4                 ['$82return_value.4']
+
+2024-12-07 21:21:52,168 - train_model - INFO - MFCC features shape: (13, 2570)
+2024-12-07 21:21:52,168 - train_model - INFO - Extracting chroma features...
+2024-12-07 21:21:52,512 - train_model - INFO - Chroma features shape: (12, 2570)
+2024-12-07 21:21:52,512 - train_model - INFO - Combining features...
+2024-12-07 21:21:52,513 - train_model - INFO - Final feature vector shape: (38,)
+2024-12-07 21:21:52,513 - predict - INFO - Successfully extracted 38 features
+2024-12-07 21:21:52,516 - predict - DEBUG - Feature values: [-1.8647998e+02  1.8630753e+02  1.8397297e+01  4.2349781e+01
+  3.2881083e+00  1.8592861e+01  1.9403027e+00  1.1087589e+01
+ -9.1964173e-01 -1.3957216e+00 -1.1950105e+00  5.5364909e+00
+ -4.6728339e+00  3.6869517e+03  1.2704144e+03  3.0782169e+02
+  5.3839893e+02  5.1855420e+02  2.5995212e+02  1.3905894e+02
+  8.1050072e+01  7.9511284e+01  1.1544887e+02  9.2999405e+01
+  1.3038240e+02  7.3629219e+01  3.3623755e-01  3.9715743e-01
+  4.1220507e-01  4.6357080e-01  4.5797652e-01  5.2893883e-01
+  5.3657365e-01  3.4289059e-01  3.0349782e-01  3.0007347e-01
+  4.0637493e-01  3.8414356e-01]
+2024-12-07 21:21:52,516 - predict - INFO - Scaling features...
+2024-12-07 21:21:52,521 - predict - INFO - Features scaled successfully
+2024-12-07 21:21:52,521 - predict - INFO - Making prediction...
+2024-12-07 21:21:52,529 - predict - INFO - Prediction successful: 0.63
+2024-12-11 13:17:12,017 - __main__ - INFO - Processing uploaded file: 45-Æ¬¶Î5.mp3 (size: 428909 bytes)
+2024-12-11 13:17:12,022 - predict - INFO - Starting prediction process for: C:\Users\13576\AppData\Local\Temp\tmparuhoc1w.mp3
+2024-12-11 13:17:12,022 - predict - DEBUG - Starting audio file verification for: C:\Users\13576\AppData\Local\Temp\tmparuhoc1w.mp3
+2024-12-11 13:17:12,025 - predict - DEBUG - File size: 428909 bytes
+2024-12-11 13:17:12,026 - predict - DEBUG - Attempting to read with soundfile...
+2024-12-11 13:17:12,029 - predict - DEBUG - SoundFile success - Sample rate: 44100Hz, Channels: 2, Frames: 1179695
+2024-12-11 13:17:12,030 - predict - DEBUG - Attempting to read with librosa...
+2024-12-11 13:17:13,146 - numba.core.byteflow - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1141)
+           2	LOAD_FAST(arg=0, lineno=1144)
+           4	LOAD_CONST(arg=1, lineno=1144)
+           6	BINARY_SUBSCR(arg=None, lineno=1144)
+           8	STORE_FAST(arg=3, lineno=1144)
+          10	LOAD_FAST(arg=1, lineno=1145)
+          12	UNARY_NEGATIVE(arg=None, lineno=1145)
+          14	LOAD_FAST(arg=3, lineno=1145)
+          16	DUP_TOP(arg=None, lineno=1145)
+          18	ROT_THREE(arg=None, lineno=1145)
+          20	COMPARE_OP(arg=1, lineno=1145)
+          22	POP_JUMP_IF_FALSE(arg=32, lineno=1145)
+          24	LOAD_FAST(arg=1, lineno=1145)
+          26	COMPARE_OP(arg=1, lineno=1145)
+          28	POP_JUMP_IF_FALSE(arg=40, lineno=1145)
+          30	JUMP_FORWARD(arg=4, lineno=1145)
+>         32	POP_TOP(arg=None, lineno=1145)
+          34	JUMP_FORWARD(arg=4, lineno=1145)
+>         36	LOAD_CONST(arg=1, lineno=1146)
+          38	STORE_FAST(arg=3, lineno=1146)
+>         40	LOAD_FAST(arg=0, lineno=1148)
+          42	LOAD_CONST(arg=2, lineno=1148)
+          44	BINARY_SUBSCR(arg=None, lineno=1148)
+          46	STORE_FAST(arg=4, lineno=1148)
+          48	LOAD_FAST(arg=1, lineno=1149)
+          50	UNARY_NEGATIVE(arg=None, lineno=1149)
+          52	LOAD_FAST(arg=4, lineno=1149)
+          54	DUP_TOP(arg=None, lineno=1149)
+          56	ROT_THREE(arg=None, lineno=1149)
+          58	COMPARE_OP(arg=1, lineno=1149)
+          60	POP_JUMP_IF_FALSE(arg=70, lineno=1149)
+          62	LOAD_FAST(arg=1, lineno=1149)
+          64	COMPARE_OP(arg=1, lineno=1149)
+          66	POP_JUMP_IF_FALSE(arg=78, lineno=1149)
+          68	JUMP_FORWARD(arg=4, lineno=1149)
+>         70	POP_TOP(arg=None, lineno=1149)
+          72	JUMP_FORWARD(arg=4, lineno=1149)
+>         74	LOAD_CONST(arg=1, lineno=1150)
+          76	STORE_FAST(arg=4, lineno=1150)
+>         78	LOAD_FAST(arg=2, lineno=1152)
+          80	POP_JUMP_IF_FALSE(arg=102, lineno=1152)
+          82	LOAD_GLOBAL(arg=0, lineno=1153)
+          84	LOAD_METHOD(arg=1, lineno=1153)
+          86	LOAD_FAST(arg=3, lineno=1153)
+          88	CALL_METHOD(arg=1, lineno=1153)
+          90	LOAD_GLOBAL(arg=0, lineno=1153)
+          92	LOAD_METHOD(arg=1, lineno=1153)
+          94	LOAD_FAST(arg=4, lineno=1153)
+          96	CALL_METHOD(arg=1, lineno=1153)
+          98	COMPARE_OP(arg=3, lineno=1153)
+         100	RETURN_VALUE(arg=None, lineno=1153)
+>        102	LOAD_GLOBAL(arg=0, lineno=1155)
+         104	LOAD_METHOD(arg=2, lineno=1155)
+         106	LOAD_FAST(arg=3, lineno=1155)
+         108	CALL_METHOD(arg=1, lineno=1155)
+         110	LOAD_GLOBAL(arg=0, lineno=1155)
+         112	LOAD_METHOD(arg=2, lineno=1155)
+         114	LOAD_FAST(arg=4, lineno=1155)
+         116	CALL_METHOD(arg=1, lineno=1155)
+         118	COMPARE_OP(arg=3, lineno=1155)
+         120	RETURN_VALUE(arg=None, lineno=1155)
+         122	LOAD_CONST(arg=3, lineno=1155)
+         124	RETURN_VALUE(arg=None, lineno=1155)
+2024-12-11 13:17:13,156 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2024-12-11 13:17:13,156 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:13,156 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2024-12-11 13:17:13,156 - numba.core.byteflow - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1141)
+2024-12-11 13:17:13,156 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,156 - numba.core.byteflow - DEBUG - dispatch pc=2, inst=LOAD_FAST(arg=0, lineno=1144)
+2024-12-11 13:17:13,156 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,164 - numba.core.byteflow - DEBUG - dispatch pc=4, inst=LOAD_CONST(arg=1, lineno=1144)
+2024-12-11 13:17:13,164 - numba.core.byteflow - DEBUG - stack ['$x2.0']
+2024-12-11 13:17:13,164 - numba.core.byteflow - DEBUG - dispatch pc=6, inst=BINARY_SUBSCR(arg=None, lineno=1144)
+2024-12-11 13:17:13,166 - numba.core.byteflow - DEBUG - stack ['$x2.0', '$const4.1']
+2024-12-11 13:17:13,166 - numba.core.byteflow - DEBUG - dispatch pc=8, inst=STORE_FAST(arg=3, lineno=1144)
+2024-12-11 13:17:13,166 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2']
+2024-12-11 13:17:13,166 - numba.core.byteflow - DEBUG - dispatch pc=10, inst=LOAD_FAST(arg=1, lineno=1145)
+2024-12-11 13:17:13,166 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,166 - numba.core.byteflow - DEBUG - dispatch pc=12, inst=UNARY_NEGATIVE(arg=None, lineno=1145)
+2024-12-11 13:17:13,166 - numba.core.byteflow - DEBUG - stack ['$threshold10.3']
+2024-12-11 13:17:13,166 - numba.core.byteflow - DEBUG - dispatch pc=14, inst=LOAD_FAST(arg=3, lineno=1145)
+2024-12-11 13:17:13,166 - numba.core.byteflow - DEBUG - stack ['$12unary_negative.4']
+2024-12-11 13:17:13,171 - numba.core.byteflow - DEBUG - dispatch pc=16, inst=DUP_TOP(arg=None, lineno=1145)
+2024-12-11 13:17:13,171 - numba.core.byteflow - DEBUG - stack ['$12unary_negative.4', '$x014.5']
+2024-12-11 13:17:13,171 - numba.core.byteflow - DEBUG - dispatch pc=18, inst=ROT_THREE(arg=None, lineno=1145)
+2024-12-11 13:17:13,171 - numba.core.byteflow - DEBUG - stack ['$12unary_negative.4', '$x014.5', '$16dup_top.6']
+2024-12-11 13:17:13,171 - numba.core.byteflow - DEBUG - dispatch pc=20, inst=COMPARE_OP(arg=1, lineno=1145)
+2024-12-11 13:17:13,175 - numba.core.byteflow - DEBUG - stack ['$16dup_top.6', '$12unary_negative.4', '$x014.5']
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - dispatch pc=22, inst=POP_JUMP_IF_FALSE(arg=32, lineno=1145)
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - stack ['$16dup_top.6', '$20compare_op.7']
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=24, stack=('$16dup_top.6',), blockstack=(), npush=0), Edge(pc=32, stack=('$16dup_top.6',), blockstack=(), npush=0)]
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=24 nstack_initial=1), State(pc_initial=32 nstack_initial=1)])
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - stack: ['$phi24.0']
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=24 nstack_initial=1)
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - dispatch pc=24, inst=LOAD_FAST(arg=1, lineno=1145)
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - stack ['$phi24.0']
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - dispatch pc=26, inst=COMPARE_OP(arg=1, lineno=1145)
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - stack ['$phi24.0', '$threshold24.1']
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - dispatch pc=28, inst=POP_JUMP_IF_FALSE(arg=40, lineno=1145)
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - stack ['$26compare_op.2']
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=30, stack=(), blockstack=(), npush=0), Edge(pc=40, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=32 nstack_initial=1), State(pc_initial=30 nstack_initial=0), State(pc_initial=40 nstack_initial=0)])
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - stack: ['$phi32.0']
+2024-12-11 13:17:13,176 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=32 nstack_initial=1)
+2024-12-11 13:17:13,186 - numba.core.byteflow - DEBUG - dispatch pc=32, inst=POP_TOP(arg=None, lineno=1145)
+2024-12-11 13:17:13,186 - numba.core.byteflow - DEBUG - stack ['$phi32.0']
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - dispatch pc=34, inst=JUMP_FORWARD(arg=4, lineno=1145)
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=40, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=30 nstack_initial=0), State(pc_initial=40 nstack_initial=0), State(pc_initial=40 nstack_initial=0)])
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=30 nstack_initial=0)
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - dispatch pc=30, inst=JUMP_FORWARD(arg=4, lineno=1145)
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=36, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=40 nstack_initial=0), State(pc_initial=40 nstack_initial=0), State(pc_initial=36 nstack_initial=0)])
+2024-12-11 13:17:13,188 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:13,195 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=40 nstack_initial=0)
+2024-12-11 13:17:13,195 - numba.core.byteflow - DEBUG - dispatch pc=40, inst=LOAD_FAST(arg=0, lineno=1148)
+2024-12-11 13:17:13,195 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,197 - numba.core.byteflow - DEBUG - dispatch pc=42, inst=LOAD_CONST(arg=2, lineno=1148)
+2024-12-11 13:17:13,198 - numba.core.byteflow - DEBUG - stack ['$x40.0']
+2024-12-11 13:17:13,198 - numba.core.byteflow - DEBUG - dispatch pc=44, inst=BINARY_SUBSCR(arg=None, lineno=1148)
+2024-12-11 13:17:13,198 - numba.core.byteflow - DEBUG - stack ['$x40.0', '$const42.1']
+2024-12-11 13:17:13,198 - numba.core.byteflow - DEBUG - dispatch pc=46, inst=STORE_FAST(arg=4, lineno=1148)
+2024-12-11 13:17:13,198 - numba.core.byteflow - DEBUG - stack ['$44binary_subscr.2']
+2024-12-11 13:17:13,198 - numba.core.byteflow - DEBUG - dispatch pc=48, inst=LOAD_FAST(arg=1, lineno=1149)
+2024-12-11 13:17:13,198 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,203 - numba.core.byteflow - DEBUG - dispatch pc=50, inst=UNARY_NEGATIVE(arg=None, lineno=1149)
+2024-12-11 13:17:13,204 - numba.core.byteflow - DEBUG - stack ['$threshold48.3']
+2024-12-11 13:17:13,204 - numba.core.byteflow - DEBUG - dispatch pc=52, inst=LOAD_FAST(arg=4, lineno=1149)
+2024-12-11 13:17:13,206 - numba.core.byteflow - DEBUG - stack ['$50unary_negative.4']
+2024-12-11 13:17:13,206 - numba.core.byteflow - DEBUG - dispatch pc=54, inst=DUP_TOP(arg=None, lineno=1149)
+2024-12-11 13:17:13,206 - numba.core.byteflow - DEBUG - stack ['$50unary_negative.4', '$x152.5']
+2024-12-11 13:17:13,207 - numba.core.byteflow - DEBUG - dispatch pc=56, inst=ROT_THREE(arg=None, lineno=1149)
+2024-12-11 13:17:13,207 - numba.core.byteflow - DEBUG - stack ['$50unary_negative.4', '$x152.5', '$54dup_top.6']
+2024-12-11 13:17:13,207 - numba.core.byteflow - DEBUG - dispatch pc=58, inst=COMPARE_OP(arg=1, lineno=1149)
+2024-12-11 13:17:13,207 - numba.core.byteflow - DEBUG - stack ['$54dup_top.6', '$50unary_negative.4', '$x152.5']
+2024-12-11 13:17:13,207 - numba.core.byteflow - DEBUG - dispatch pc=60, inst=POP_JUMP_IF_FALSE(arg=70, lineno=1149)
+2024-12-11 13:17:13,207 - numba.core.byteflow - DEBUG - stack ['$54dup_top.6', '$58compare_op.7']
+2024-12-11 13:17:13,212 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=62, stack=('$54dup_top.6',), blockstack=(), npush=0), Edge(pc=70, stack=('$54dup_top.6',), blockstack=(), npush=0)]
+2024-12-11 13:17:13,212 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=40 nstack_initial=0), State(pc_initial=36 nstack_initial=0), State(pc_initial=62 nstack_initial=1), State(pc_initial=70 nstack_initial=1)])
+2024-12-11 13:17:13,214 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=36 nstack_initial=0), State(pc_initial=62 nstack_initial=1), State(pc_initial=70 nstack_initial=1)])
+2024-12-11 13:17:13,214 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:13,216 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=36 nstack_initial=0)
+2024-12-11 13:17:13,216 - numba.core.byteflow - DEBUG - dispatch pc=36, inst=LOAD_CONST(arg=1, lineno=1146)
+2024-12-11 13:17:13,216 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,216 - numba.core.byteflow - DEBUG - dispatch pc=38, inst=STORE_FAST(arg=3, lineno=1146)
+2024-12-11 13:17:13,216 - numba.core.byteflow - DEBUG - stack ['$const36.0']
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=40, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=62 nstack_initial=1), State(pc_initial=70 nstack_initial=1), State(pc_initial=40 nstack_initial=0)])
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - stack: ['$phi62.0']
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=62 nstack_initial=1)
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - dispatch pc=62, inst=LOAD_FAST(arg=1, lineno=1149)
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - stack ['$phi62.0']
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - dispatch pc=64, inst=COMPARE_OP(arg=1, lineno=1149)
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - stack ['$phi62.0', '$threshold62.1']
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - dispatch pc=66, inst=POP_JUMP_IF_FALSE(arg=78, lineno=1149)
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - stack ['$64compare_op.2']
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=68, stack=(), blockstack=(), npush=0), Edge(pc=78, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:13,219 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=70 nstack_initial=1), State(pc_initial=40 nstack_initial=0), State(pc_initial=68 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-11 13:17:13,226 - numba.core.byteflow - DEBUG - stack: ['$phi70.0']
+2024-12-11 13:17:13,226 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=70 nstack_initial=1)
+2024-12-11 13:17:13,226 - numba.core.byteflow - DEBUG - dispatch pc=70, inst=POP_TOP(arg=None, lineno=1149)
+2024-12-11 13:17:13,226 - numba.core.byteflow - DEBUG - stack ['$phi70.0']
+2024-12-11 13:17:13,226 - numba.core.byteflow - DEBUG - dispatch pc=72, inst=JUMP_FORWARD(arg=4, lineno=1149)
+2024-12-11 13:17:13,226 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,226 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=78, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:13,229 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=40 nstack_initial=0), State(pc_initial=68 nstack_initial=0), State(pc_initial=78 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-11 13:17:13,229 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=68 nstack_initial=0), State(pc_initial=78 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-11 13:17:13,229 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:13,229 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=68 nstack_initial=0)
+2024-12-11 13:17:13,229 - numba.core.byteflow - DEBUG - dispatch pc=68, inst=JUMP_FORWARD(arg=4, lineno=1149)
+2024-12-11 13:17:13,229 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,229 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=74, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:13,229 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=78 nstack_initial=0), State(pc_initial=78 nstack_initial=0), State(pc_initial=74 nstack_initial=0)])
+2024-12-11 13:17:13,236 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:13,236 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=78 nstack_initial=0)
+2024-12-11 13:17:13,236 - numba.core.byteflow - DEBUG - dispatch pc=78, inst=LOAD_FAST(arg=2, lineno=1152)
+2024-12-11 13:17:13,237 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - dispatch pc=80, inst=POP_JUMP_IF_FALSE(arg=102, lineno=1152)
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - stack ['$zero_pos78.0']
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=82, stack=(), blockstack=(), npush=0), Edge(pc=102, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=78 nstack_initial=0), State(pc_initial=74 nstack_initial=0), State(pc_initial=82 nstack_initial=0), State(pc_initial=102 nstack_initial=0)])
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=74 nstack_initial=0), State(pc_initial=82 nstack_initial=0), State(pc_initial=102 nstack_initial=0)])
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=74 nstack_initial=0)
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - dispatch pc=74, inst=LOAD_CONST(arg=1, lineno=1150)
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - dispatch pc=76, inst=STORE_FAST(arg=4, lineno=1150)
+2024-12-11 13:17:13,238 - numba.core.byteflow - DEBUG - stack ['$const74.0']
+2024-12-11 13:17:13,245 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=78, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:13,245 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=82 nstack_initial=0), State(pc_initial=102 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-11 13:17:13,245 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:13,247 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=82 nstack_initial=0)
+2024-12-11 13:17:13,248 - numba.core.byteflow - DEBUG - dispatch pc=82, inst=LOAD_GLOBAL(arg=0, lineno=1153)
+2024-12-11 13:17:13,249 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,249 - numba.core.byteflow - DEBUG - dispatch pc=84, inst=LOAD_METHOD(arg=1, lineno=1153)
+2024-12-11 13:17:13,249 - numba.core.byteflow - DEBUG - stack ['$82load_global.0']
+2024-12-11 13:17:13,249 - numba.core.byteflow - DEBUG - dispatch pc=86, inst=LOAD_FAST(arg=3, lineno=1153)
+2024-12-11 13:17:13,249 - numba.core.byteflow - DEBUG - stack ['$84load_method.1']
+2024-12-11 13:17:13,252 - numba.core.byteflow - DEBUG - dispatch pc=88, inst=CALL_METHOD(arg=1, lineno=1153)
+2024-12-11 13:17:13,252 - numba.core.byteflow - DEBUG - stack ['$84load_method.1', '$x086.2']
+2024-12-11 13:17:13,252 - numba.core.byteflow - DEBUG - dispatch pc=90, inst=LOAD_GLOBAL(arg=0, lineno=1153)
+2024-12-11 13:17:13,253 - numba.core.byteflow - DEBUG - stack ['$88call_method.3']
+2024-12-11 13:17:13,253 - numba.core.byteflow - DEBUG - dispatch pc=92, inst=LOAD_METHOD(arg=1, lineno=1153)
+2024-12-11 13:17:13,253 - numba.core.byteflow - DEBUG - stack ['$88call_method.3', '$90load_global.4']
+2024-12-11 13:17:13,253 - numba.core.byteflow - DEBUG - dispatch pc=94, inst=LOAD_FAST(arg=4, lineno=1153)
+2024-12-11 13:17:13,253 - numba.core.byteflow - DEBUG - stack ['$88call_method.3', '$92load_method.5']
+2024-12-11 13:17:13,255 - numba.core.byteflow - DEBUG - dispatch pc=96, inst=CALL_METHOD(arg=1, lineno=1153)
+2024-12-11 13:17:13,255 - numba.core.byteflow - DEBUG - stack ['$88call_method.3', '$92load_method.5', '$x194.6']
+2024-12-11 13:17:13,255 - numba.core.byteflow - DEBUG - dispatch pc=98, inst=COMPARE_OP(arg=3, lineno=1153)
+2024-12-11 13:17:13,255 - numba.core.byteflow - DEBUG - stack ['$88call_method.3', '$96call_method.7']
+2024-12-11 13:17:13,255 - numba.core.byteflow - DEBUG - dispatch pc=100, inst=RETURN_VALUE(arg=None, lineno=1153)
+2024-12-11 13:17:13,255 - numba.core.byteflow - DEBUG - stack ['$98compare_op.8']
+2024-12-11 13:17:13,255 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-11 13:17:13,255 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=102 nstack_initial=0), State(pc_initial=78 nstack_initial=0)])
+2024-12-11 13:17:13,260 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:13,260 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=102 nstack_initial=0)
+2024-12-11 13:17:13,260 - numba.core.byteflow - DEBUG - dispatch pc=102, inst=LOAD_GLOBAL(arg=0, lineno=1155)
+2024-12-11 13:17:13,260 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:13,260 - numba.core.byteflow - DEBUG - dispatch pc=104, inst=LOAD_METHOD(arg=2, lineno=1155)
+2024-12-11 13:17:13,260 - numba.core.byteflow - DEBUG - stack ['$102load_global.0']
+2024-12-11 13:17:13,264 - numba.core.byteflow - DEBUG - dispatch pc=106, inst=LOAD_FAST(arg=3, lineno=1155)
+2024-12-11 13:17:13,264 - numba.core.byteflow - DEBUG - stack ['$104load_method.1']
+2024-12-11 13:17:13,264 - numba.core.byteflow - DEBUG - dispatch pc=108, inst=CALL_METHOD(arg=1, lineno=1155)
+2024-12-11 13:17:13,265 - numba.core.byteflow - DEBUG - stack ['$104load_method.1', '$x0106.2']
+2024-12-11 13:17:13,265 - numba.core.byteflow - DEBUG - dispatch pc=110, inst=LOAD_GLOBAL(arg=0, lineno=1155)
+2024-12-11 13:17:13,268 - numba.core.byteflow - DEBUG - stack ['$108call_method.3']
+2024-12-11 13:17:13,268 - numba.core.byteflow - DEBUG - dispatch pc=112, inst=LOAD_METHOD(arg=2, lineno=1155)
+2024-12-11 13:17:13,268 - numba.core.byteflow - DEBUG - stack ['$108call_method.3', '$110load_global.4']
+2024-12-11 13:17:13,268 - numba.core.byteflow - DEBUG - dispatch pc=114, inst=LOAD_FAST(arg=4, lineno=1155)
+2024-12-11 13:17:13,271 - numba.core.byteflow - DEBUG - stack ['$108call_method.3', '$112load_method.5']
+2024-12-11 13:17:13,271 - numba.core.byteflow - DEBUG - dispatch pc=116, inst=CALL_METHOD(arg=1, lineno=1155)
+2024-12-11 13:17:13,271 - numba.core.byteflow - DEBUG - stack ['$108call_method.3', '$112load_method.5', '$x1114.6']
+2024-12-11 13:17:13,271 - numba.core.byteflow - DEBUG - dispatch pc=118, inst=COMPARE_OP(arg=3, lineno=1155)
+2024-12-11 13:17:13,271 - numba.core.byteflow - DEBUG - stack ['$108call_method.3', '$116call_method.7']
+2024-12-11 13:17:13,271 - numba.core.byteflow - DEBUG - dispatch pc=120, inst=RETURN_VALUE(arg=None, lineno=1155)
+2024-12-11 13:17:13,271 - numba.core.byteflow - DEBUG - stack ['$118compare_op.8']
+2024-12-11 13:17:13,271 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-11 13:17:13,271 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=78 nstack_initial=0)])
+2024-12-11 13:17:13,276 - numba.core.byteflow - DEBUG - -------------------------Prune PHIs-------------------------
+2024-12-11 13:17:13,276 - numba.core.byteflow - DEBUG - Used_phis: defaultdict(<class 'set'>,
+            {State(pc_initial=0 nstack_initial=0): set(),
+             State(pc_initial=24 nstack_initial=1): {'$phi24.0'},
+             State(pc_initial=30 nstack_initial=0): set(),
+             State(pc_initial=32 nstack_initial=1): set(),
+             State(pc_initial=36 nstack_initial=0): set(),
+             State(pc_initial=40 nstack_initial=0): set(),
+             State(pc_initial=62 nstack_initial=1): {'$phi62.0'},
+             State(pc_initial=68 nstack_initial=0): set(),
+             State(pc_initial=70 nstack_initial=1): set(),
+             State(pc_initial=74 nstack_initial=0): set(),
+             State(pc_initial=78 nstack_initial=0): set(),
+             State(pc_initial=82 nstack_initial=0): set(),
+             State(pc_initial=102 nstack_initial=0): set()})
+2024-12-11 13:17:13,280 - numba.core.byteflow - DEBUG - defmap: {'$phi24.0': State(pc_initial=0 nstack_initial=0),
+ '$phi32.0': State(pc_initial=0 nstack_initial=0),
+ '$phi62.0': State(pc_initial=40 nstack_initial=0),
+ '$phi70.0': State(pc_initial=40 nstack_initial=0)}
+2024-12-11 13:17:13,282 - numba.core.byteflow - DEBUG - phismap: defaultdict(<class 'set'>,
+            {'$phi24.0': {('$16dup_top.6',
+                           State(pc_initial=0 nstack_initial=0))},
+             '$phi32.0': {('$16dup_top.6',
+                           State(pc_initial=0 nstack_initial=0))},
+             '$phi62.0': {('$54dup_top.6',
+                           State(pc_initial=40 nstack_initial=0))},
+             '$phi70.0': {('$54dup_top.6',
+                           State(pc_initial=40 nstack_initial=0))}})
+2024-12-11 13:17:13,282 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi24.0': {('$16dup_top.6',
+                           State(pc_initial=0 nstack_initial=0))},
+             '$phi32.0': {('$16dup_top.6',
+                           State(pc_initial=0 nstack_initial=0))},
+             '$phi62.0': {('$54dup_top.6',
+                           State(pc_initial=40 nstack_initial=0))},
+             '$phi70.0': {('$54dup_top.6',
+                           State(pc_initial=40 nstack_initial=0))}})
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - keep phismap: {'$phi24.0': {('$16dup_top.6', State(pc_initial=0 nstack_initial=0))},
+ '$phi62.0': {('$54dup_top.6', State(pc_initial=40 nstack_initial=0))}}
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - new_out: defaultdict(<class 'dict'>,
+            {State(pc_initial=0 nstack_initial=0): {'$phi24.0': '$16dup_top.6'},
+             State(pc_initial=40 nstack_initial=0): {'$phi62.0': '$54dup_top.6'}})
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$x2.0'}), (4, {'res': '$const4.1'}), (6, {'index': '$const4.1', 'target': '$x2.0', 'res': '$6binary_subscr.2'}), (8, {'value': '$6binary_subscr.2'}), (10, {'res': '$threshold10.3'}), (12, {'value': '$threshold10.3', 'res': '$12unary_negative.4'}), (14, {'res': '$x014.5'}), (16, {'orig': ['$x014.5'], 'duped': ['$16dup_top.6']}), (20, {'lhs': '$12unary_negative.4', 'rhs': '$x014.5', 'res': '$20compare_op.7'}), (22, {'pred': '$20compare_op.7'})), outgoing_phis={'$phi24.0': '$16dup_top.6'}, blockstack=(), active_try_block=None, outgoing_edgepushed={24: ('$16dup_top.6',), 32: ('$16dup_top.6',)})
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=24 nstack_initial=1):
+AdaptBlockInfo(insts=((24, {'res': '$threshold24.1'}), (26, {'lhs': '$phi24.0', 'rhs': '$threshold24.1', 'res': '$26compare_op.2'}), (28, {'pred': '$26compare_op.2'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={30: (), 40: ()})
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=30 nstack_initial=0):
+AdaptBlockInfo(insts=((30, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={36: ()})
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=32 nstack_initial=1):
+AdaptBlockInfo(insts=((34, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={40: ()})
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=36 nstack_initial=0):
+AdaptBlockInfo(insts=((36, {'res': '$const36.0'}), (38, {'value': '$const36.0'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={40: ()})
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=40 nstack_initial=0):
+AdaptBlockInfo(insts=((40, {'res': '$x40.0'}), (42, {'res': '$const42.1'}), (44, {'index': '$const42.1', 'target': '$x40.0', 'res': '$44binary_subscr.2'}), (46, {'value': '$44binary_subscr.2'}), (48, {'res': '$threshold48.3'}), (50, {'value': '$threshold48.3', 'res': '$50unary_negative.4'}), (52, {'res': '$x152.5'}), (54, {'orig': ['$x152.5'], 'duped': ['$54dup_top.6']}), (58, {'lhs': '$50unary_negative.4', 'rhs': '$x152.5', 'res': '$58compare_op.7'}), (60, {'pred': '$58compare_op.7'})), outgoing_phis={'$phi62.0': '$54dup_top.6'}, blockstack=(), active_try_block=None, outgoing_edgepushed={62: ('$54dup_top.6',), 70: ('$54dup_top.6',)})
+2024-12-11 13:17:13,286 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=62 nstack_initial=1):
+AdaptBlockInfo(insts=((62, {'res': '$threshold62.1'}), (64, {'lhs': '$phi62.0', 'rhs': '$threshold62.1', 'res': '$64compare_op.2'}), (66, {'pred': '$64compare_op.2'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={68: (), 78: ()})
+2024-12-11 13:17:13,297 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=68 nstack_initial=0):
+AdaptBlockInfo(insts=((68, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={74: ()})
+2024-12-11 13:17:13,297 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=70 nstack_initial=1):
+AdaptBlockInfo(insts=((72, {}),), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={78: ()})
+2024-12-11 13:17:13,297 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=74 nstack_initial=0):
+AdaptBlockInfo(insts=((74, {'res': '$const74.0'}), (76, {'value': '$const74.0'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={78: ()})
+2024-12-11 13:17:13,300 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=78 nstack_initial=0):
+AdaptBlockInfo(insts=((78, {'res': '$zero_pos78.0'}), (80, {'pred': '$zero_pos78.0'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={82: (), 102: ()})
+2024-12-11 13:17:13,300 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=82 nstack_initial=0):
+AdaptBlockInfo(insts=((82, {'res': '$82load_global.0'}), (84, {'item': '$82load_global.0', 'res': '$84load_method.1'}), (86, {'res': '$x086.2'}), (88, {'func': '$84load_method.1', 'args': ['$x086.2'], 'res': '$88call_method.3'}), (90, {'res': '$90load_global.4'}), (92, {'item': '$90load_global.4', 'res': '$92load_method.5'}), (94, {'res': '$x194.6'}), (96, {'func': '$92load_method.5', 'args': ['$x194.6'], 'res': '$96call_method.7'}), (98, {'lhs': '$88call_method.3', 'rhs': '$96call_method.7', 'res': '$98compare_op.8'}), (100, {'retval': '$98compare_op.8', 'castval': '$100return_value.9'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-11 13:17:13,300 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=102 nstack_initial=0):
+AdaptBlockInfo(insts=((102, {'res': '$102load_global.0'}), (104, {'item': '$102load_global.0', 'res': '$104load_method.1'}), (106, {'res': '$x0106.2'}), (108, {'func': '$104load_method.1', 'args': ['$x0106.2'], 'res': '$108call_method.3'}), (110, {'res': '$110load_global.4'}), (112, {'item': '$110load_global.4', 'res': '$112load_method.5'}), (114, {'res': '$x1114.6'}), (116, {'func': '$112load_method.5', 'args': ['$x1114.6'], 'res': '$116call_method.7'}), (118, {'lhs': '$108call_method.3', 'rhs': '$116call_method.7', 'res': '$118compare_op.8'}), (120, {'retval': '$118compare_op.8', 'castval': '$120return_value.9'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-11 13:17:13,306 - numba.core.interpreter - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    threshold = arg(1, name=threshold)       ['threshold']
+    zero_pos = arg(2, name=zero_pos)         ['zero_pos']
+    $const4.1 = const(int, 0)                ['$const4.1']
+    x0 = getitem(value=x, index=$const4.1, fn=<built-in function getitem>) ['$const4.1', 'x', 'x0']
+    $12unary_negative.4 = unary(fn=<built-in function neg>, value=threshold) ['$12unary_negative.4', 'threshold']
+    $20compare_op.7 = $12unary_negative.4 <= x0 ['$12unary_negative.4', '$20compare_op.7', 'x0']
+    bool22 = global(bool: <class 'bool'>)    ['bool22']
+    $22pred = call bool22($20compare_op.7, func=bool22, args=(Var($20compare_op.7, audio.py:1145),), kws=(), vararg=None, varkwarg=None, target=None) ['$20compare_op.7', '$22pred', 'bool22']
+    $phi24.0 = x0                            ['$phi24.0', 'x0']
+    branch $22pred, 24, 32                   ['$22pred']
+label 24:
+    $26compare_op.2 = $phi24.0 <= threshold  ['$26compare_op.2', '$phi24.0', 'threshold']
+    bool28 = global(bool: <class 'bool'>)    ['bool28']
+    $28pred = call bool28($26compare_op.2, func=bool28, args=(Var($26compare_op.2, audio.py:1145),), kws=(), vararg=None, varkwarg=None, target=None) ['$26compare_op.2', '$28pred', 'bool28']
+    branch $28pred, 30, 40                   ['$28pred']
+label 30:
+    jump 36                                  []
+label 32:
+    jump 40                                  []
+label 36:
+    x0 = const(int, 0)                       ['x0']
+    jump 40                                  []
+label 40:
+    $const42.1 = const(int, -1)              ['$const42.1']
+    x1 = getitem(value=x, index=$const42.1, fn=<built-in function getitem>) ['$const42.1', 'x', 'x1']
+    $50unary_negative.4 = unary(fn=<built-in function neg>, value=threshold) ['$50unary_negative.4', 'threshold']
+    $58compare_op.7 = $50unary_negative.4 <= x1 ['$50unary_negative.4', '$58compare_op.7', 'x1']
+    bool60 = global(bool: <class 'bool'>)    ['bool60']
+    $60pred = call bool60($58compare_op.7, func=bool60, args=(Var($58compare_op.7, audio.py:1149),), kws=(), vararg=None, varkwarg=None, target=None) ['$58compare_op.7', '$60pred', 'bool60']
+    $phi62.0 = x1                            ['$phi62.0', 'x1']
+    branch $60pred, 62, 70                   ['$60pred']
+label 62:
+    $64compare_op.2 = $phi62.0 <= threshold  ['$64compare_op.2', '$phi62.0', 'threshold']
+    bool66 = global(bool: <class 'bool'>)    ['bool66']
+    $66pred = call bool66($64compare_op.2, func=bool66, args=(Var($64compare_op.2, audio.py:1149),), kws=(), vararg=None, varkwarg=None, target=None) ['$64compare_op.2', '$66pred', 'bool66']
+    branch $66pred, 68, 78                   ['$66pred']
+label 68:
+    jump 74                                  []
+label 70:
+    jump 78                                  []
+label 74:
+    x1 = const(int, 0)                       ['x1']
+    jump 78                                  []
+label 78:
+    bool80 = global(bool: <class 'bool'>)    ['bool80']
+    $80pred = call bool80(zero_pos, func=bool80, args=(Var(zero_pos, audio.py:1141),), kws=(), vararg=None, varkwarg=None, target=None) ['$80pred', 'bool80', 'zero_pos']
+    branch $80pred, 82, 102                  ['$80pred']
+label 82:
+    $82load_global.0 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$82load_global.0']
+    $84load_method.1 = getattr(value=$82load_global.0, attr=signbit) ['$82load_global.0', '$84load_method.1']
+    $88call_method.3 = call $84load_method.1(x0, func=$84load_method.1, args=[Var(x0, audio.py:1144)], kws=(), vararg=None, varkwarg=None, target=None) ['$84load_method.1', '$88call_method.3', 'x0']
+    $90load_global.4 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$90load_global.4']
+    $92load_method.5 = getattr(value=$90load_global.4, attr=signbit) ['$90load_global.4', '$92load_method.5']
+    $96call_method.7 = call $92load_method.5(x1, func=$92load_method.5, args=[Var(x1, audio.py:1148)], kws=(), vararg=None, varkwarg=None, target=None) ['$92load_method.5', '$96call_method.7', 'x1']
+    $98compare_op.8 = $88call_method.3 != $96call_method.7 ['$88call_method.3', '$96call_method.7', '$98compare_op.8']
+    $100return_value.9 = cast(value=$98compare_op.8) ['$100return_value.9', '$98compare_op.8']
+    return $100return_value.9                ['$100return_value.9']
+label 102:
+    $102load_global.0 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$102load_global.0']
+    $104load_method.1 = getattr(value=$102load_global.0, attr=sign) ['$102load_global.0', '$104load_method.1']
+    $108call_method.3 = call $104load_method.1(x0, func=$104load_method.1, args=[Var(x0, audio.py:1144)], kws=(), vararg=None, varkwarg=None, target=None) ['$104load_method.1', '$108call_method.3', 'x0']
+    $110load_global.4 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$110load_global.4']
+    $112load_method.5 = getattr(value=$110load_global.4, attr=sign) ['$110load_global.4', '$112load_method.5']
+    $116call_method.7 = call $112load_method.5(x1, func=$112load_method.5, args=[Var(x1, audio.py:1148)], kws=(), vararg=None, varkwarg=None, target=None) ['$112load_method.5', '$116call_method.7', 'x1']
+    $118compare_op.8 = $108call_method.3 != $116call_method.7 ['$108call_method.3', '$116call_method.7', '$118compare_op.8']
+    $120return_value.9 = cast(value=$118compare_op.8) ['$118compare_op.8', '$120return_value.9']
+    return $120return_value.9                ['$120return_value.9']
+
+2024-12-11 13:17:14,868 - numba.core.byteflow - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1039)
+           2	LOAD_FAST(arg=0, lineno=1042)
+           4	LOAD_CONST(arg=1, lineno=1042)
+           6	BINARY_SUBSCR(arg=None, lineno=1042)
+           8	LOAD_FAST(arg=0, lineno=1042)
+          10	LOAD_CONST(arg=2, lineno=1042)
+          12	BINARY_SUBSCR(arg=None, lineno=1042)
+          14	COMPARE_OP(arg=4, lineno=1042)
+          16	LOAD_FAST(arg=0, lineno=1042)
+          18	LOAD_CONST(arg=1, lineno=1042)
+          20	BINARY_SUBSCR(arg=None, lineno=1042)
+          22	LOAD_FAST(arg=0, lineno=1042)
+          24	LOAD_CONST(arg=3, lineno=1042)
+          26	BINARY_SUBSCR(arg=None, lineno=1042)
+          28	COMPARE_OP(arg=5, lineno=1042)
+          30	BINARY_AND(arg=None, lineno=1042)
+          32	RETURN_VALUE(arg=None, lineno=1042)
+2024-12-11 13:17:14,874 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2024-12-11 13:17:14,875 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:14,875 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2024-12-11 13:17:14,875 - numba.core.byteflow - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1039)
+2024-12-11 13:17:14,877 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:14,877 - numba.core.byteflow - DEBUG - dispatch pc=2, inst=LOAD_FAST(arg=0, lineno=1042)
+2024-12-11 13:17:14,877 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:14,878 - numba.core.byteflow - DEBUG - dispatch pc=4, inst=LOAD_CONST(arg=1, lineno=1042)
+2024-12-11 13:17:14,878 - numba.core.byteflow - DEBUG - stack ['$x2.0']
+2024-12-11 13:17:14,879 - numba.core.byteflow - DEBUG - dispatch pc=6, inst=BINARY_SUBSCR(arg=None, lineno=1042)
+2024-12-11 13:17:14,879 - numba.core.byteflow - DEBUG - stack ['$x2.0', '$const4.1']
+2024-12-11 13:17:14,879 - numba.core.byteflow - DEBUG - dispatch pc=8, inst=LOAD_FAST(arg=0, lineno=1042)
+2024-12-11 13:17:14,879 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2']
+2024-12-11 13:17:14,879 - numba.core.byteflow - DEBUG - dispatch pc=10, inst=LOAD_CONST(arg=2, lineno=1042)
+2024-12-11 13:17:14,879 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3']
+2024-12-11 13:17:14,879 - numba.core.byteflow - DEBUG - dispatch pc=12, inst=BINARY_SUBSCR(arg=None, lineno=1042)
+2024-12-11 13:17:14,879 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3', '$const10.4']
+2024-12-11 13:17:14,883 - numba.core.byteflow - DEBUG - dispatch pc=14, inst=COMPARE_OP(arg=4, lineno=1042)
+2024-12-11 13:17:14,885 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$12binary_subscr.5']
+2024-12-11 13:17:14,886 - numba.core.byteflow - DEBUG - dispatch pc=16, inst=LOAD_FAST(arg=0, lineno=1042)
+2024-12-11 13:17:14,886 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6']
+2024-12-11 13:17:14,887 - numba.core.byteflow - DEBUG - dispatch pc=18, inst=LOAD_CONST(arg=1, lineno=1042)
+2024-12-11 13:17:14,887 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$x16.7']
+2024-12-11 13:17:14,888 - numba.core.byteflow - DEBUG - dispatch pc=20, inst=BINARY_SUBSCR(arg=None, lineno=1042)
+2024-12-11 13:17:14,889 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$x16.7', '$const18.8']
+2024-12-11 13:17:14,889 - numba.core.byteflow - DEBUG - dispatch pc=22, inst=LOAD_FAST(arg=0, lineno=1042)
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9']
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - dispatch pc=24, inst=LOAD_CONST(arg=3, lineno=1042)
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$x22.10']
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - dispatch pc=26, inst=BINARY_SUBSCR(arg=None, lineno=1042)
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$x22.10', '$const24.11']
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - dispatch pc=28, inst=COMPARE_OP(arg=5, lineno=1042)
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$26binary_subscr.12']
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - dispatch pc=30, inst=BINARY_AND(arg=None, lineno=1042)
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$28compare_op.13']
+2024-12-11 13:17:14,890 - numba.core.byteflow - DEBUG - dispatch pc=32, inst=RETURN_VALUE(arg=None, lineno=1042)
+2024-12-11 13:17:14,896 - numba.core.byteflow - DEBUG - stack ['$30binary_and.14']
+2024-12-11 13:17:14,896 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-11 13:17:14,896 - numba.core.byteflow - DEBUG - -------------------------Prune PHIs-------------------------
+2024-12-11 13:17:14,896 - numba.core.byteflow - DEBUG - Used_phis: defaultdict(<class 'set'>, {State(pc_initial=0 nstack_initial=0): set()})
+2024-12-11 13:17:14,896 - numba.core.byteflow - DEBUG - defmap: {}
+2024-12-11 13:17:14,896 - numba.core.byteflow - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2024-12-11 13:17:14,899 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2024-12-11 13:17:14,901 - numba.core.byteflow - DEBUG - keep phismap: {}
+2024-12-11 13:17:14,902 - numba.core.byteflow - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2024-12-11 13:17:14,902 - numba.core.byteflow - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2024-12-11 13:17:14,905 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$x2.0'}), (4, {'res': '$const4.1'}), (6, {'index': '$const4.1', 'target': '$x2.0', 'res': '$6binary_subscr.2'}), (8, {'res': '$x8.3'}), (10, {'res': '$const10.4'}), (12, {'index': '$const10.4', 'target': '$x8.3', 'res': '$12binary_subscr.5'}), (14, {'lhs': '$6binary_subscr.2', 'rhs': '$12binary_subscr.5', 'res': '$14compare_op.6'}), (16, {'res': '$x16.7'}), (18, {'res': '$const18.8'}), (20, {'index': '$const18.8', 'target': '$x16.7', 'res': '$20binary_subscr.9'}), (22, {'res': '$x22.10'}), (24, {'res': '$const24.11'}), (26, {'index': '$const24.11', 'target': '$x22.10', 'res': '$26binary_subscr.12'}), (28, {'lhs': '$20binary_subscr.9', 'rhs': '$26binary_subscr.12', 'res': '$28compare_op.13'}), (30, {'lhs': '$14compare_op.6', 'rhs': '$28compare_op.13', 'res': '$30binary_and.14'}), (32, {'retval': '$30binary_and.14', 'castval': '$32return_value.15'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-11 13:17:14,906 - numba.core.interpreter - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const4.1 = const(int, 0)                ['$const4.1']
+    $6binary_subscr.2 = getitem(value=x, index=$const4.1, fn=<built-in function getitem>) ['$6binary_subscr.2', '$const4.1', 'x']
+    $const10.4 = const(int, -1)              ['$const10.4']
+    $12binary_subscr.5 = getitem(value=x, index=$const10.4, fn=<built-in function getitem>) ['$12binary_subscr.5', '$const10.4', 'x']
+    $14compare_op.6 = $6binary_subscr.2 > $12binary_subscr.5 ['$12binary_subscr.5', '$14compare_op.6', '$6binary_subscr.2']
+    $const18.8 = const(int, 0)               ['$const18.8']
+    $20binary_subscr.9 = getitem(value=x, index=$const18.8, fn=<built-in function getitem>) ['$20binary_subscr.9', '$const18.8', 'x']
+    $const24.11 = const(int, 1)              ['$const24.11']
+    $26binary_subscr.12 = getitem(value=x, index=$const24.11, fn=<built-in function getitem>) ['$26binary_subscr.12', '$const24.11', 'x']
+    $28compare_op.13 = $20binary_subscr.9 >= $26binary_subscr.12 ['$20binary_subscr.9', '$26binary_subscr.12', '$28compare_op.13']
+    $30binary_and.14 = $14compare_op.6 & $28compare_op.13 ['$14compare_op.6', '$28compare_op.13', '$30binary_and.14']
+    $32return_value.15 = cast(value=$30binary_and.14) ['$30binary_and.14', '$32return_value.15']
+    return $32return_value.15                ['$32return_value.15']
+
+2024-12-11 13:17:14,916 - numba.core.byteflow - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=1045)
+           2	LOAD_FAST(arg=0, lineno=1048)
+           4	LOAD_CONST(arg=1, lineno=1048)
+           6	BINARY_SUBSCR(arg=None, lineno=1048)
+           8	LOAD_FAST(arg=0, lineno=1048)
+          10	LOAD_CONST(arg=2, lineno=1048)
+          12	BINARY_SUBSCR(arg=None, lineno=1048)
+          14	COMPARE_OP(arg=0, lineno=1048)
+          16	LOAD_FAST(arg=0, lineno=1048)
+          18	LOAD_CONST(arg=1, lineno=1048)
+          20	BINARY_SUBSCR(arg=None, lineno=1048)
+          22	LOAD_FAST(arg=0, lineno=1048)
+          24	LOAD_CONST(arg=3, lineno=1048)
+          26	BINARY_SUBSCR(arg=None, lineno=1048)
+          28	COMPARE_OP(arg=1, lineno=1048)
+          30	BINARY_AND(arg=None, lineno=1048)
+          32	RETURN_VALUE(arg=None, lineno=1048)
+2024-12-11 13:17:14,917 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2024-12-11 13:17:14,917 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:14,917 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2024-12-11 13:17:14,917 - numba.core.byteflow - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=1045)
+2024-12-11 13:17:14,917 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:14,917 - numba.core.byteflow - DEBUG - dispatch pc=2, inst=LOAD_FAST(arg=0, lineno=1048)
+2024-12-11 13:17:14,917 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:14,925 - numba.core.byteflow - DEBUG - dispatch pc=4, inst=LOAD_CONST(arg=1, lineno=1048)
+2024-12-11 13:17:14,926 - numba.core.byteflow - DEBUG - stack ['$x2.0']
+2024-12-11 13:17:14,927 - numba.core.byteflow - DEBUG - dispatch pc=6, inst=BINARY_SUBSCR(arg=None, lineno=1048)
+2024-12-11 13:17:14,927 - numba.core.byteflow - DEBUG - stack ['$x2.0', '$const4.1']
+2024-12-11 13:17:14,928 - numba.core.byteflow - DEBUG - dispatch pc=8, inst=LOAD_FAST(arg=0, lineno=1048)
+2024-12-11 13:17:14,928 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2']
+2024-12-11 13:17:14,929 - numba.core.byteflow - DEBUG - dispatch pc=10, inst=LOAD_CONST(arg=2, lineno=1048)
+2024-12-11 13:17:14,931 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3']
+2024-12-11 13:17:14,931 - numba.core.byteflow - DEBUG - dispatch pc=12, inst=BINARY_SUBSCR(arg=None, lineno=1048)
+2024-12-11 13:17:14,931 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3', '$const10.4']
+2024-12-11 13:17:14,931 - numba.core.byteflow - DEBUG - dispatch pc=14, inst=COMPARE_OP(arg=0, lineno=1048)
+2024-12-11 13:17:14,936 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$12binary_subscr.5']
+2024-12-11 13:17:14,936 - numba.core.byteflow - DEBUG - dispatch pc=16, inst=LOAD_FAST(arg=0, lineno=1048)
+2024-12-11 13:17:14,937 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6']
+2024-12-11 13:17:14,937 - numba.core.byteflow - DEBUG - dispatch pc=18, inst=LOAD_CONST(arg=1, lineno=1048)
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$x16.7']
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - dispatch pc=20, inst=BINARY_SUBSCR(arg=None, lineno=1048)
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$x16.7', '$const18.8']
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - dispatch pc=22, inst=LOAD_FAST(arg=0, lineno=1048)
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9']
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - dispatch pc=24, inst=LOAD_CONST(arg=3, lineno=1048)
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$x22.10']
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - dispatch pc=26, inst=BINARY_SUBSCR(arg=None, lineno=1048)
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$x22.10', '$const24.11']
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - dispatch pc=28, inst=COMPARE_OP(arg=1, lineno=1048)
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$20binary_subscr.9', '$26binary_subscr.12']
+2024-12-11 13:17:14,938 - numba.core.byteflow - DEBUG - dispatch pc=30, inst=BINARY_AND(arg=None, lineno=1048)
+2024-12-11 13:17:14,945 - numba.core.byteflow - DEBUG - stack ['$14compare_op.6', '$28compare_op.13']
+2024-12-11 13:17:14,945 - numba.core.byteflow - DEBUG - dispatch pc=32, inst=RETURN_VALUE(arg=None, lineno=1048)
+2024-12-11 13:17:14,947 - numba.core.byteflow - DEBUG - stack ['$30binary_and.14']
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - -------------------------Prune PHIs-------------------------
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - Used_phis: defaultdict(<class 'set'>, {State(pc_initial=0 nstack_initial=0): set()})
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - defmap: {}
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - keep phismap: {}
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2024-12-11 13:17:14,948 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$x2.0'}), (4, {'res': '$const4.1'}), (6, {'index': '$const4.1', 'target': '$x2.0', 'res': '$6binary_subscr.2'}), (8, {'res': '$x8.3'}), (10, {'res': '$const10.4'}), (12, {'index': '$const10.4', 'target': '$x8.3', 'res': '$12binary_subscr.5'}), (14, {'lhs': '$6binary_subscr.2', 'rhs': '$12binary_subscr.5', 'res': '$14compare_op.6'}), (16, {'res': '$x16.7'}), (18, {'res': '$const18.8'}), (20, {'index': '$const18.8', 'target': '$x16.7', 'res': '$20binary_subscr.9'}), (22, {'res': '$x22.10'}), (24, {'res': '$const24.11'}), (26, {'index': '$const24.11', 'target': '$x22.10', 'res': '$26binary_subscr.12'}), (28, {'lhs': '$20binary_subscr.9', 'rhs': '$26binary_subscr.12', 'res': '$28compare_op.13'}), (30, {'lhs': '$14compare_op.6', 'rhs': '$28compare_op.13', 'res': '$30binary_and.14'}), (32, {'retval': '$30binary_and.14', 'castval': '$32return_value.15'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-11 13:17:14,956 - numba.core.interpreter - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const4.1 = const(int, 0)                ['$const4.1']
+    $6binary_subscr.2 = getitem(value=x, index=$const4.1, fn=<built-in function getitem>) ['$6binary_subscr.2', '$const4.1', 'x']
+    $const10.4 = const(int, -1)              ['$const10.4']
+    $12binary_subscr.5 = getitem(value=x, index=$const10.4, fn=<built-in function getitem>) ['$12binary_subscr.5', '$const10.4', 'x']
+    $14compare_op.6 = $6binary_subscr.2 < $12binary_subscr.5 ['$12binary_subscr.5', '$14compare_op.6', '$6binary_subscr.2']
+    $const18.8 = const(int, 0)               ['$const18.8']
+    $20binary_subscr.9 = getitem(value=x, index=$const18.8, fn=<built-in function getitem>) ['$20binary_subscr.9', '$const18.8', 'x']
+    $const24.11 = const(int, 1)              ['$const24.11']
+    $26binary_subscr.12 = getitem(value=x, index=$const24.11, fn=<built-in function getitem>) ['$26binary_subscr.12', '$const24.11', 'x']
+    $28compare_op.13 = $20binary_subscr.9 <= $26binary_subscr.12 ['$20binary_subscr.9', '$26binary_subscr.12', '$28compare_op.13']
+    $30binary_and.14 = $14compare_op.6 & $28compare_op.13 ['$14compare_op.6', '$28compare_op.13', '$30binary_and.14']
+    $32return_value.15 = cast(value=$30binary_and.14) ['$30binary_and.14', '$32return_value.15']
+    return $32return_value.15                ['$32return_value.15']
+
+2024-12-11 13:17:15,676 - predict - DEBUG - Librosa success - Sample rate: 44100Hz, Length: 44100 samples
+2024-12-11 13:17:15,676 - predict - INFO - Loading model and scaler...
+2024-12-11 13:17:15,751 - predict - INFO - Model and scaler loaded successfully
+2024-12-11 13:17:15,751 - predict - INFO - Starting feature extraction...
+2024-12-11 13:17:15,751 - train_model - INFO - Starting feature extraction for: C:\Users\13576\AppData\Local\Temp\tmparuhoc1w.mp3
+2024-12-11 13:17:15,754 - train_model - INFO - Audio file info: 44100Hz, 2 channels
+2024-12-11 13:17:15,754 - train_model - INFO - Loading audio file...
+2024-12-11 13:17:15,856 - train_model - INFO - Successfully loaded audio: 1179695 samples, 44100Hz sample rate
+2024-12-11 13:17:15,861 - train_model - INFO - Audio duration: 26.75 seconds
+2024-12-11 13:17:15,861 - train_model - INFO - Extracting MFCC features...
+2024-12-11 13:17:15,905 - numba.core.byteflow - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=425)
+           2	LOAD_FAST(arg=0, lineno=428)
+           4	LOAD_CONST(arg=1, lineno=428)
+           6	BINARY_SUBSCR(arg=None, lineno=428)
+           8	LOAD_FAST(arg=0, lineno=428)
+          10	LOAD_CONST(arg=2, lineno=428)
+          12	BINARY_SUBSCR(arg=None, lineno=428)
+          14	BINARY_ADD(arg=None, lineno=428)
+          16	LOAD_CONST(arg=3, lineno=428)
+          18	LOAD_FAST(arg=0, lineno=428)
+          20	LOAD_CONST(arg=4, lineno=428)
+          22	BINARY_SUBSCR(arg=None, lineno=428)
+          24	BINARY_MULTIPLY(arg=None, lineno=428)
+          26	BINARY_SUBTRACT(arg=None, lineno=428)
+          28	STORE_FAST(arg=1, lineno=428)
+          30	LOAD_FAST(arg=0, lineno=429)
+          32	LOAD_CONST(arg=1, lineno=429)
+          34	BINARY_SUBSCR(arg=None, lineno=429)
+          36	LOAD_FAST(arg=0, lineno=429)
+          38	LOAD_CONST(arg=2, lineno=429)
+          40	BINARY_SUBSCR(arg=None, lineno=429)
+          42	BINARY_SUBTRACT(arg=None, lineno=429)
+          44	LOAD_CONST(arg=3, lineno=429)
+          46	BINARY_TRUE_DIVIDE(arg=None, lineno=429)
+          48	STORE_FAST(arg=2, lineno=429)
+          50	LOAD_GLOBAL(arg=0, lineno=431)
+          52	LOAD_METHOD(arg=1, lineno=431)
+          54	LOAD_FAST(arg=2, lineno=431)
+          56	CALL_METHOD(arg=1, lineno=431)
+          58	LOAD_GLOBAL(arg=0, lineno=431)
+          60	LOAD_METHOD(arg=1, lineno=431)
+          62	LOAD_FAST(arg=1, lineno=431)
+          64	CALL_METHOD(arg=1, lineno=431)
+          66	COMPARE_OP(arg=5, lineno=431)
+          68	POP_JUMP_IF_FALSE(arg=74, lineno=431)
+          70	LOAD_CONST(arg=4, lineno=434)
+          72	RETURN_VALUE(arg=None, lineno=434)
+>         74	LOAD_FAST(arg=2, lineno=436)
+          76	UNARY_NEGATIVE(arg=None, lineno=436)
+          78	LOAD_FAST(arg=1, lineno=436)
+          80	BINARY_TRUE_DIVIDE(arg=None, lineno=436)
+          82	RETURN_VALUE(arg=None, lineno=436)
+2024-12-11 13:17:15,910 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+2024-12-11 13:17:15,910 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:15,916 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=0 nstack_initial=0)
+2024-12-11 13:17:15,916 - numba.core.byteflow - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=425)
+2024-12-11 13:17:15,916 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:15,916 - numba.core.byteflow - DEBUG - dispatch pc=2, inst=LOAD_FAST(arg=0, lineno=428)
+2024-12-11 13:17:15,916 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:15,916 - numba.core.byteflow - DEBUG - dispatch pc=4, inst=LOAD_CONST(arg=1, lineno=428)
+2024-12-11 13:17:15,916 - numba.core.byteflow - DEBUG - stack ['$x2.0']
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - dispatch pc=6, inst=BINARY_SUBSCR(arg=None, lineno=428)
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - stack ['$x2.0', '$const4.1']
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - dispatch pc=8, inst=LOAD_FAST(arg=0, lineno=428)
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2']
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - dispatch pc=10, inst=LOAD_CONST(arg=2, lineno=428)
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3']
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - dispatch pc=12, inst=BINARY_SUBSCR(arg=None, lineno=428)
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$x8.3', '$const10.4']
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - dispatch pc=14, inst=BINARY_ADD(arg=None, lineno=428)
+2024-12-11 13:17:15,921 - numba.core.byteflow - DEBUG - stack ['$6binary_subscr.2', '$12binary_subscr.5']
+2024-12-11 13:17:15,926 - numba.core.byteflow - DEBUG - dispatch pc=16, inst=LOAD_CONST(arg=3, lineno=428)
+2024-12-11 13:17:15,926 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6']
+2024-12-11 13:17:15,926 - numba.core.byteflow - DEBUG - dispatch pc=18, inst=LOAD_FAST(arg=0, lineno=428)
+2024-12-11 13:17:15,926 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$const16.7']
+2024-12-11 13:17:15,926 - numba.core.byteflow - DEBUG - dispatch pc=20, inst=LOAD_CONST(arg=4, lineno=428)
+2024-12-11 13:17:15,926 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$const16.7', '$x18.8']
+2024-12-11 13:17:15,926 - numba.core.byteflow - DEBUG - dispatch pc=22, inst=BINARY_SUBSCR(arg=None, lineno=428)
+2024-12-11 13:17:15,926 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$const16.7', '$x18.8', '$const20.9']
+2024-12-11 13:17:15,926 - numba.core.byteflow - DEBUG - dispatch pc=24, inst=BINARY_MULTIPLY(arg=None, lineno=428)
+2024-12-11 13:17:15,931 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$const16.7', '$22binary_subscr.10']
+2024-12-11 13:17:15,931 - numba.core.byteflow - DEBUG - dispatch pc=26, inst=BINARY_SUBTRACT(arg=None, lineno=428)
+2024-12-11 13:17:15,932 - numba.core.byteflow - DEBUG - stack ['$14binary_add.6', '$24binary_multiply.11']
+2024-12-11 13:17:15,932 - numba.core.byteflow - DEBUG - dispatch pc=28, inst=STORE_FAST(arg=1, lineno=428)
+2024-12-11 13:17:15,932 - numba.core.byteflow - DEBUG - stack ['$26binary_subtract.12']
+2024-12-11 13:17:15,932 - numba.core.byteflow - DEBUG - dispatch pc=30, inst=LOAD_FAST(arg=0, lineno=429)
+2024-12-11 13:17:15,932 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:15,932 - numba.core.byteflow - DEBUG - dispatch pc=32, inst=LOAD_CONST(arg=1, lineno=429)
+2024-12-11 13:17:15,932 - numba.core.byteflow - DEBUG - stack ['$x30.13']
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - dispatch pc=34, inst=BINARY_SUBSCR(arg=None, lineno=429)
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - stack ['$x30.13', '$const32.14']
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - dispatch pc=36, inst=LOAD_FAST(arg=0, lineno=429)
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - stack ['$34binary_subscr.15']
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - dispatch pc=38, inst=LOAD_CONST(arg=2, lineno=429)
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - stack ['$34binary_subscr.15', '$x36.16']
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - dispatch pc=40, inst=BINARY_SUBSCR(arg=None, lineno=429)
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - stack ['$34binary_subscr.15', '$x36.16', '$const38.17']
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - dispatch pc=42, inst=BINARY_SUBTRACT(arg=None, lineno=429)
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - stack ['$34binary_subscr.15', '$40binary_subscr.18']
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - dispatch pc=44, inst=LOAD_CONST(arg=3, lineno=429)
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - stack ['$42binary_subtract.19']
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - dispatch pc=46, inst=BINARY_TRUE_DIVIDE(arg=None, lineno=429)
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - stack ['$42binary_subtract.19', '$const44.20']
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - dispatch pc=48, inst=STORE_FAST(arg=2, lineno=429)
+2024-12-11 13:17:15,935 - numba.core.byteflow - DEBUG - stack ['$46binary_true_divide.21']
+2024-12-11 13:17:15,942 - numba.core.byteflow - DEBUG - dispatch pc=50, inst=LOAD_GLOBAL(arg=0, lineno=431)
+2024-12-11 13:17:15,942 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:15,942 - numba.core.byteflow - DEBUG - dispatch pc=52, inst=LOAD_METHOD(arg=1, lineno=431)
+2024-12-11 13:17:15,943 - numba.core.byteflow - DEBUG - stack ['$50load_global.22']
+2024-12-11 13:17:15,943 - numba.core.byteflow - DEBUG - dispatch pc=54, inst=LOAD_FAST(arg=2, lineno=431)
+2024-12-11 13:17:15,943 - numba.core.byteflow - DEBUG - stack ['$52load_method.23']
+2024-12-11 13:17:15,943 - numba.core.byteflow - DEBUG - dispatch pc=56, inst=CALL_METHOD(arg=1, lineno=431)
+2024-12-11 13:17:15,945 - numba.core.byteflow - DEBUG - stack ['$52load_method.23', '$b54.24']
+2024-12-11 13:17:15,945 - numba.core.byteflow - DEBUG - dispatch pc=58, inst=LOAD_GLOBAL(arg=0, lineno=431)
+2024-12-11 13:17:15,945 - numba.core.byteflow - DEBUG - stack ['$56call_method.25']
+2024-12-11 13:17:15,945 - numba.core.byteflow - DEBUG - dispatch pc=60, inst=LOAD_METHOD(arg=1, lineno=431)
+2024-12-11 13:17:15,945 - numba.core.byteflow - DEBUG - stack ['$56call_method.25', '$58load_global.26']
+2024-12-11 13:17:15,949 - numba.core.byteflow - DEBUG - dispatch pc=62, inst=LOAD_FAST(arg=1, lineno=431)
+2024-12-11 13:17:15,950 - numba.core.byteflow - DEBUG - stack ['$56call_method.25', '$60load_method.27']
+2024-12-11 13:17:15,950 - numba.core.byteflow - DEBUG - dispatch pc=64, inst=CALL_METHOD(arg=1, lineno=431)
+2024-12-11 13:17:15,950 - numba.core.byteflow - DEBUG - stack ['$56call_method.25', '$60load_method.27', '$a62.28']
+2024-12-11 13:17:15,950 - numba.core.byteflow - DEBUG - dispatch pc=66, inst=COMPARE_OP(arg=5, lineno=431)
+2024-12-11 13:17:15,952 - numba.core.byteflow - DEBUG - stack ['$56call_method.25', '$64call_method.29']
+2024-12-11 13:17:15,952 - numba.core.byteflow - DEBUG - dispatch pc=68, inst=POP_JUMP_IF_FALSE(arg=74, lineno=431)
+2024-12-11 13:17:15,952 - numba.core.byteflow - DEBUG - stack ['$66compare_op.30']
+2024-12-11 13:17:15,952 - numba.core.byteflow - DEBUG - end state. edges=[Edge(pc=70, stack=(), blockstack=(), npush=0), Edge(pc=74, stack=(), blockstack=(), npush=0)]
+2024-12-11 13:17:15,952 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=70 nstack_initial=0), State(pc_initial=74 nstack_initial=0)])
+2024-12-11 13:17:15,954 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:15,954 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=70 nstack_initial=0)
+2024-12-11 13:17:15,954 - numba.core.byteflow - DEBUG - dispatch pc=70, inst=LOAD_CONST(arg=4, lineno=434)
+2024-12-11 13:17:15,954 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:15,956 - numba.core.byteflow - DEBUG - dispatch pc=72, inst=RETURN_VALUE(arg=None, lineno=434)
+2024-12-11 13:17:15,956 - numba.core.byteflow - DEBUG - stack ['$const70.0']
+2024-12-11 13:17:15,956 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-11 13:17:15,956 - numba.core.byteflow - DEBUG - pending: deque([State(pc_initial=74 nstack_initial=0)])
+2024-12-11 13:17:15,956 - numba.core.byteflow - DEBUG - stack: []
+2024-12-11 13:17:15,959 - numba.core.byteflow - DEBUG - state.pc_initial: State(pc_initial=74 nstack_initial=0)
+2024-12-11 13:17:15,959 - numba.core.byteflow - DEBUG - dispatch pc=74, inst=LOAD_FAST(arg=2, lineno=436)
+2024-12-11 13:17:15,959 - numba.core.byteflow - DEBUG - stack []
+2024-12-11 13:17:15,960 - numba.core.byteflow - DEBUG - dispatch pc=76, inst=UNARY_NEGATIVE(arg=None, lineno=436)
+2024-12-11 13:17:15,961 - numba.core.byteflow - DEBUG - stack ['$b74.0']
+2024-12-11 13:17:15,962 - numba.core.byteflow - DEBUG - dispatch pc=78, inst=LOAD_FAST(arg=1, lineno=436)
+2024-12-11 13:17:15,963 - numba.core.byteflow - DEBUG - stack ['$76unary_negative.1']
+2024-12-11 13:17:15,963 - numba.core.byteflow - DEBUG - dispatch pc=80, inst=BINARY_TRUE_DIVIDE(arg=None, lineno=436)
+2024-12-11 13:17:15,964 - numba.core.byteflow - DEBUG - stack ['$76unary_negative.1', '$a78.2']
+2024-12-11 13:17:15,964 - numba.core.byteflow - DEBUG - dispatch pc=82, inst=RETURN_VALUE(arg=None, lineno=436)
+2024-12-11 13:17:15,964 - numba.core.byteflow - DEBUG - stack ['$80binary_true_divide.3']
+2024-12-11 13:17:15,965 - numba.core.byteflow - DEBUG - end state. edges=[]
+2024-12-11 13:17:15,965 - numba.core.byteflow - DEBUG - -------------------------Prune PHIs-------------------------
+2024-12-11 13:17:15,965 - numba.core.byteflow - DEBUG - Used_phis: defaultdict(<class 'set'>,
+            {State(pc_initial=0 nstack_initial=0): set(),
+             State(pc_initial=70 nstack_initial=0): set(),
+             State(pc_initial=74 nstack_initial=0): set()})
+2024-12-11 13:17:15,967 - numba.core.byteflow - DEBUG - defmap: {}
+2024-12-11 13:17:15,969 - numba.core.byteflow - DEBUG - phismap: defaultdict(<class 'set'>, {})
+2024-12-11 13:17:15,969 - numba.core.byteflow - DEBUG - changing phismap: defaultdict(<class 'set'>, {})
+2024-12-11 13:17:15,969 - numba.core.byteflow - DEBUG - keep phismap: {}
+2024-12-11 13:17:15,969 - numba.core.byteflow - DEBUG - new_out: defaultdict(<class 'dict'>, {})
+2024-12-11 13:17:15,969 - numba.core.byteflow - DEBUG - ----------------------DONE Prune PHIs-----------------------
+2024-12-11 13:17:15,969 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$x2.0'}), (4, {'res': '$const4.1'}), (6, {'index': '$const4.1', 'target': '$x2.0', 'res': '$6binary_subscr.2'}), (8, {'res': '$x8.3'}), (10, {'res': '$const10.4'}), (12, {'index': '$const10.4', 'target': '$x8.3', 'res': '$12binary_subscr.5'}), (14, {'lhs': '$6binary_subscr.2', 'rhs': '$12binary_subscr.5', 'res': '$14binary_add.6'}), (16, {'res': '$const16.7'}), (18, {'res': '$x18.8'}), (20, {'res': '$const20.9'}), (22, {'index': '$const20.9', 'target': '$x18.8', 'res': '$22binary_subscr.10'}), (24, {'lhs': '$const16.7', 'rhs': '$22binary_subscr.10', 'res': '$24binary_multiply.11'}), (26, {'lhs': '$14binary_add.6', 'rhs': '$24binary_multiply.11', 'res': '$26binary_subtract.12'}), (28, {'value': '$26binary_subtract.12'}), (30, {'res': '$x30.13'}), (32, {'res': '$const32.14'}), (34, {'index': '$const32.14', 'target': '$x30.13', 'res': '$34binary_subscr.15'}), (36, {'res': '$x36.16'}), (38, {'res': '$const38.17'}), (40, {'index': '$const38.17', 'target': '$x36.16', 'res': '$40binary_subscr.18'}), (42, {'lhs': '$34binary_subscr.15', 'rhs': '$40binary_subscr.18', 'res': '$42binary_subtract.19'}), (44, {'res': '$const44.20'}), (46, {'lhs': '$42binary_subtract.19', 'rhs': '$const44.20', 'res': '$46binary_true_divide.21'}), (48, {'value': '$46binary_true_divide.21'}), (50, {'res': '$50load_global.22'}), (52, {'item': '$50load_global.22', 'res': '$52load_method.23'}), (54, {'res': '$b54.24'}), (56, {'func': '$52load_method.23', 'args': ['$b54.24'], 'res': '$56call_method.25'}), (58, {'res': '$58load_global.26'}), (60, {'item': '$58load_global.26', 'res': '$60load_method.27'}), (62, {'res': '$a62.28'}), (64, {'func': '$60load_method.27', 'args': ['$a62.28'], 'res': '$64call_method.29'}), (66, {'lhs': '$56call_method.25', 'rhs': '$64call_method.29', 'res': '$66compare_op.30'}), (68, {'pred': '$66compare_op.30'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={70: (), 74: ()})
+2024-12-11 13:17:15,974 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=70 nstack_initial=0):
+AdaptBlockInfo(insts=((70, {'res': '$const70.0'}), (72, {'retval': '$const70.0', 'castval': '$72return_value.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-11 13:17:15,975 - numba.core.byteflow - DEBUG - block_infos State(pc_initial=74 nstack_initial=0):
+AdaptBlockInfo(insts=((74, {'res': '$b74.0'}), (76, {'value': '$b74.0', 'res': '$76unary_negative.1'}), (78, {'res': '$a78.2'}), (80, {'lhs': '$76unary_negative.1', 'rhs': '$a78.2', 'res': '$80binary_true_divide.3'}), (82, {'retval': '$80binary_true_divide.3', 'castval': '$82return_value.4'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+2024-12-11 13:17:15,975 - numba.core.interpreter - DEBUG - label 0:
+    x = arg(0, name=x)                       ['x']
+    $const4.1 = const(int, 1)                ['$const4.1']
+    $6binary_subscr.2 = getitem(value=x, index=$const4.1, fn=<built-in function getitem>) ['$6binary_subscr.2', '$const4.1', 'x']
+    $const10.4 = const(int, -1)              ['$const10.4']
+    $12binary_subscr.5 = getitem(value=x, index=$const10.4, fn=<built-in function getitem>) ['$12binary_subscr.5', '$const10.4', 'x']
+    $14binary_add.6 = $6binary_subscr.2 + $12binary_subscr.5 ['$12binary_subscr.5', '$14binary_add.6', '$6binary_subscr.2']
+    $const16.7 = const(int, 2)               ['$const16.7']
+    $const20.9 = const(int, 0)               ['$const20.9']
+    $22binary_subscr.10 = getitem(value=x, index=$const20.9, fn=<built-in function getitem>) ['$22binary_subscr.10', '$const20.9', 'x']
+    $24binary_multiply.11 = $const16.7 * $22binary_subscr.10 ['$22binary_subscr.10', '$24binary_multiply.11', '$const16.7']
+    a = $14binary_add.6 - $24binary_multiply.11 ['$14binary_add.6', '$24binary_multiply.11', 'a']
+    $const32.14 = const(int, 1)              ['$const32.14']
+    $34binary_subscr.15 = getitem(value=x, index=$const32.14, fn=<built-in function getitem>) ['$34binary_subscr.15', '$const32.14', 'x']
+    $const38.17 = const(int, -1)             ['$const38.17']
+    $40binary_subscr.18 = getitem(value=x, index=$const38.17, fn=<built-in function getitem>) ['$40binary_subscr.18', '$const38.17', 'x']
+    $42binary_subtract.19 = $34binary_subscr.15 - $40binary_subscr.18 ['$34binary_subscr.15', '$40binary_subscr.18', '$42binary_subtract.19']
+    $const44.20 = const(int, 2)              ['$const44.20']
+    b = $42binary_subtract.19 / $const44.20  ['$42binary_subtract.19', '$const44.20', 'b']
+    $50load_global.22 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$50load_global.22']
+    $52load_method.23 = getattr(value=$50load_global.22, attr=abs) ['$50load_global.22', '$52load_method.23']
+    $56call_method.25 = call $52load_method.23(b, func=$52load_method.23, args=[Var(b, pitch.py:429)], kws=(), vararg=None, varkwarg=None, target=None) ['$52load_method.23', '$56call_method.25', 'b']
+    $58load_global.26 = global(np: <module 'numpy' from 'C:\\Users\\13576\\miniconda3\\lib\\site-packages\\numpy\\__init__.py'>) ['$58load_global.26']
+    $60load_method.27 = getattr(value=$58load_global.26, attr=abs) ['$58load_global.26', '$60load_method.27']
+    $64call_method.29 = call $60load_method.27(a, func=$60load_method.27, args=[Var(a, pitch.py:428)], kws=(), vararg=None, varkwarg=None, target=None) ['$60load_method.27', '$64call_method.29', 'a']
+    $66compare_op.30 = $56call_method.25 >= $64call_method.29 ['$56call_method.25', '$64call_method.29', '$66compare_op.30']
+    bool68 = global(bool: <class 'bool'>)    ['bool68']
+    $68pred = call bool68($66compare_op.30, func=bool68, args=(Var($66compare_op.30, pitch.py:431),), kws=(), vararg=None, varkwarg=None, target=None) ['$66compare_op.30', '$68pred', 'bool68']
+    branch $68pred, 70, 74                   ['$68pred']
+label 70:
+    $const70.0 = const(int, 0)               ['$const70.0']
+    $72return_value.1 = cast(value=$const70.0) ['$72return_value.1', '$const70.0']
+    return $72return_value.1                 ['$72return_value.1']
+label 74:
+    $76unary_negative.1 = unary(fn=<built-in function neg>, value=b) ['$76unary_negative.1', 'b']
+    $80binary_true_divide.3 = $76unary_negative.1 / a ['$76unary_negative.1', '$80binary_true_divide.3', 'a']
+    $82return_value.4 = cast(value=$80binary_true_divide.3) ['$80binary_true_divide.3', '$82return_value.4']
+    return $82return_value.4                 ['$82return_value.4']
+
+2024-12-11 13:17:16,291 - train_model - INFO - MFCC features shape: (13, 2305)
+2024-12-11 13:17:16,296 - train_model - INFO - Extracting chroma features...
+2024-12-11 13:17:16,549 - train_model - INFO - Chroma features shape: (12, 2305)
+2024-12-11 13:17:16,549 - train_model - INFO - Combining features...
+2024-12-11 13:17:16,549 - train_model - INFO - Final feature vector shape: (38,)
+2024-12-11 13:17:16,549 - predict - INFO - Successfully extracted 38 features
+2024-12-11 13:17:16,577 - predict - DEBUG - Feature values: [-3.9748303e+02  1.8509157e+02  5.0528572e+01  2.5857947e+00
+ -1.2628184e+01 -3.6777446e+00 -3.7846360e+00 -9.2644567e+00
+ -1.0388956e+01 -2.6238534e+00  2.2081466e+00 -8.3254833e+00
+ -1.2840968e+01  1.8848303e+03  6.6480817e+02  5.2537476e+02
+  3.7841623e+02  2.4281993e+02  1.6144948e+02  6.7356308e+01
+  1.6422557e+02  1.1445317e+02  9.1252769e+01  1.6966896e+02
+  1.3579755e+02  1.3804344e+02  4.7493011e-01  2.5866714e-01
+  1.9999577e-01  3.0664372e-01  1.7663112e-01  1.4497052e-01
+  1.1581095e-01  2.0334065e-01  2.1406630e-01  2.2047351e-01
+  4.3751615e-01  3.4410781e-01]
+2024-12-11 13:17:16,581 - predict - INFO - Scaling features...
+2024-12-11 13:17:16,581 - predict - INFO - Features scaled successfully
+2024-12-11 13:17:16,581 - predict - INFO - Making prediction...
+2024-12-11 13:17:16,590 - predict - INFO - Prediction successful: 0.87
+2024-12-11 13:17:28,096 - __main__ - INFO - Processing uploaded file: 45-Æ¬¶Î4.mp3 (size: 257127 bytes)
+2024-12-11 13:17:28,096 - predict - INFO - Starting prediction process for: C:\Users\13576\AppData\Local\Temp\tmptznc3tgj.mp3
+2024-12-11 13:17:28,096 - predict - DEBUG - Starting audio file verification for: C:\Users\13576\AppData\Local\Temp\tmptznc3tgj.mp3
+2024-12-11 13:17:28,096 - predict - DEBUG - File size: 257127 bytes
+2024-12-11 13:17:28,100 - predict - DEBUG - Attempting to read with soundfile...
+2024-12-11 13:17:28,100 - predict - DEBUG - SoundFile success - Sample rate: 44100Hz, Channels: 2, Frames: 706223
+2024-12-11 13:17:28,100 - predict - DEBUG - Attempting to read with librosa...
+2024-12-11 13:17:28,110 - predict - DEBUG - Librosa success - Sample rate: 44100Hz, Length: 44100 samples
+2024-12-11 13:17:28,113 - predict - INFO - Loading model and scaler...
+2024-12-11 13:17:28,191 - predict - INFO - Model and scaler loaded successfully
+2024-12-11 13:17:28,191 - predict - INFO - Starting feature extraction...
+2024-12-11 13:17:28,191 - train_model - INFO - Starting feature extraction for: C:\Users\13576\AppData\Local\Temp\tmptznc3tgj.mp3
+2024-12-11 13:17:28,196 - train_model - INFO - Audio file info: 44100Hz, 2 channels
+2024-12-11 13:17:28,196 - train_model - INFO - Loading audio file...
+2024-12-11 13:17:28,270 - train_model - INFO - Successfully loaded audio: 706223 samples, 44100Hz sample rate
+2024-12-11 13:17:28,270 - train_model - INFO - Audio duration: 16.01 seconds
+2024-12-11 13:17:28,270 - train_model - INFO - Extracting MFCC features...
+2024-12-11 13:17:28,366 - train_model - INFO - MFCC features shape: (13, 1380)
+2024-12-11 13:17:28,366 - train_model - INFO - Extracting chroma features...
+2024-12-11 13:17:28,530 - train_model - INFO - Chroma features shape: (12, 1380)
+2024-12-11 13:17:28,530 - train_model - INFO - Combining features...
+2024-12-11 13:17:28,533 - train_model - INFO - Final feature vector shape: (38,)
+2024-12-11 13:17:28,533 - predict - INFO - Successfully extracted 38 features
+2024-12-11 13:17:28,536 - predict - DEBUG - Feature values: [-3.12940613e+02  2.28345062e+02  3.81222496e+01  2.12309107e-01
+ -4.50530720e+00  6.81471205e+00 -9.88767505e-01 -2.66011310e+00
+ -9.30536652e+00 -1.32368889e+01 -1.37851505e+01 -1.14827576e+01
+ -6.47177505e+00  1.35898474e+03  8.43817383e+02  1.21080795e+02
+  2.71027954e+02  4.22328430e+02  1.60834427e+02  8.39693146e+01
+  1.32909958e+02  1.45035660e+02  6.40724945e+01  1.00755211e+02
+  6.03824043e+01  9.66681824e+01  1.53534129e-01  2.24059150e-01
+  5.28680444e-01  5.21511495e-01  2.15332225e-01  1.28629491e-01
+  1.21496782e-01  1.82444930e-01  1.78943992e-01  4.10490185e-01
+  7.27670491e-01  2.83300608e-01]
+2024-12-11 13:17:28,536 - predict - INFO - Scaling features...
+2024-12-11 13:17:28,536 - predict - INFO - Features scaled successfully
+2024-12-11 13:17:28,536 - predict - INFO - Making prediction...
+2024-12-11 13:17:28,550 - predict - INFO - Prediction successful: 0.78
+2024-12-11 13:17:32,826 - __main__ - INFO - Processing uploaded file: 13-Æ¬¶Î4.mp3 (size: 478228 bytes)
+2024-12-11 13:17:32,830 - predict - INFO - Starting prediction process for: C:\Users\13576\AppData\Local\Temp\tmp23ylnwf4.mp3
+2024-12-11 13:17:32,830 - predict - DEBUG - Starting audio file verification for: C:\Users\13576\AppData\Local\Temp\tmp23ylnwf4.mp3
+2024-12-11 13:17:32,836 - predict - DEBUG - File size: 478228 bytes
+2024-12-11 13:17:32,844 - predict - DEBUG - Attempting to read with soundfile...
+2024-12-11 13:17:32,860 - predict - DEBUG - SoundFile success - Sample rate: 44100Hz, Channels: 2, Frames: 1315631
+2024-12-11 13:17:32,864 - predict - DEBUG - Attempting to read with librosa...
+2024-12-11 13:17:32,874 - predict - DEBUG - Librosa success - Sample rate: 44100Hz, Length: 44100 samples
+2024-12-11 13:17:32,874 - predict - INFO - Loading model and scaler...
+2024-12-11 13:17:32,946 - predict - INFO - Model and scaler loaded successfully
+2024-12-11 13:17:32,952 - predict - INFO - Starting feature extraction...
+2024-12-11 13:17:32,952 - train_model - INFO - Starting feature extraction for: C:\Users\13576\AppData\Local\Temp\tmp23ylnwf4.mp3
+2024-12-11 13:17:32,955 - train_model - INFO - Audio file info: 44100Hz, 2 channels
+2024-12-11 13:17:32,957 - train_model - INFO - Loading audio file...
+2024-12-11 13:17:33,095 - train_model - INFO - Successfully loaded audio: 1315631 samples, 44100Hz sample rate
+2024-12-11 13:17:33,096 - train_model - INFO - Audio duration: 29.83 seconds
+2024-12-11 13:17:33,096 - train_model - INFO - Extracting MFCC features...
+2024-12-11 13:17:33,286 - train_model - INFO - MFCC features shape: (13, 2570)
+2024-12-11 13:17:33,293 - train_model - INFO - Extracting chroma features...
+2024-12-11 13:17:33,628 - train_model - INFO - Chroma features shape: (12, 2570)
+2024-12-11 13:17:33,630 - train_model - INFO - Combining features...
+2024-12-11 13:17:33,631 - train_model - INFO - Final feature vector shape: (38,)
+2024-12-11 13:17:33,632 - predict - INFO - Successfully extracted 38 features
+2024-12-11 13:17:33,635 - predict - DEBUG - Feature values: [-1.8647998e+02  1.8630753e+02  1.8397297e+01  4.2349781e+01
+  3.2881083e+00  1.8592861e+01  1.9403027e+00  1.1087589e+01
+ -9.1964173e-01 -1.3957216e+00 -1.1950105e+00  5.5364909e+00
+ -4.6728339e+00  3.6869517e+03  1.2704144e+03  3.0782169e+02
+  5.3839893e+02  5.1855420e+02  2.5995212e+02  1.3905894e+02
+  8.1050072e+01  7.9511284e+01  1.1544887e+02  9.2999405e+01
+  1.3038240e+02  7.3629219e+01  3.3623755e-01  3.9715743e-01
+  4.1220507e-01  4.6357080e-01  4.5797652e-01  5.2893883e-01
+  5.3657365e-01  3.4289059e-01  3.0349782e-01  3.0007347e-01
+  4.0637493e-01  3.8414356e-01]
+2024-12-11 13:17:33,638 - predict - INFO - Scaling features...
+2024-12-11 13:17:33,639 - predict - INFO - Features scaled successfully
+2024-12-11 13:17:33,640 - predict - INFO - Making prediction...
+2024-12-11 13:17:33,648 - predict - INFO - Prediction successful: 0.63
+2024-12-11 13:17:56,233 - __main__ - INFO - Processing uploaded file: Bad Romance_16.mp3 (size: 7017453 bytes)
+2024-12-11 13:17:56,236 - predict - INFO - Starting prediction process for: C:\Users\13576\AppData\Local\Temp\tmp09m2zpdk.mp3
+2024-12-11 13:17:56,236 - predict - DEBUG - Starting audio file verification for: C:\Users\13576\AppData\Local\Temp\tmp09m2zpdk.mp3
+2024-12-11 13:17:56,248 - predict - DEBUG - File size: 7017453 bytes
+2024-12-11 13:17:56,250 - predict - DEBUG - Attempting to read with soundfile...
+2024-12-11 13:17:56,253 - predict - DEBUG - SoundFile success - Sample rate: 48000Hz, Channels: 2, Frames: 14031726
+2024-12-11 13:17:56,254 - predict - DEBUG - Attempting to read with librosa...
+2024-12-11 13:17:56,258 - predict - DEBUG - Librosa success - Sample rate: 48000Hz, Length: 48000 samples
+2024-12-11 13:17:56,263 - predict - INFO - Loading model and scaler...
+2024-12-11 13:17:56,346 - predict - INFO - Model and scaler loaded successfully
+2024-12-11 13:17:56,346 - predict - INFO - Starting feature extraction...
+2024-12-11 13:17:56,346 - train_model - INFO - Starting feature extraction for: C:\Users\13576\AppData\Local\Temp\tmp09m2zpdk.mp3
+2024-12-11 13:17:56,350 - train_model - INFO - Audio file info: 48000Hz, 2 channels
+2024-12-11 13:17:56,350 - train_model - INFO - Loading audio file...
+2024-12-11 13:17:56,499 - train_model - INFO - Successfully loaded audio: 1440000 samples, 48000Hz sample rate
+2024-12-11 13:17:56,499 - train_model - INFO - Audio duration: 30.00 seconds
+2024-12-11 13:17:56,499 - train_model - INFO - Extracting MFCC features...
+2024-12-11 13:17:56,675 - train_model - INFO - MFCC features shape: (13, 2813)
+2024-12-11 13:17:56,675 - train_model - INFO - Extracting chroma features...
+2024-12-11 13:17:57,199 - train_model - INFO - Chroma features shape: (12, 2813)
+2024-12-11 13:17:57,199 - train_model - INFO - Combining features...
+2024-12-11 13:17:57,199 - train_model - INFO - Final feature vector shape: (38,)
+2024-12-11 13:17:57,204 - predict - INFO - Successfully extracted 38 features
+2024-12-11 13:17:57,204 - predict - DEBUG - Feature values: [-9.21824646e+01  1.18229973e+02 -4.53566322e+01  2.67195702e+01
+ -2.95909672e+01  1.60873394e+01 -1.27823944e+01  1.59275494e+01
+ -5.38563871e+00  1.85916948e+00 -1.20177412e+01  7.14832211e+00
+ -4.60824585e+00  5.67116797e+03  5.27263245e+02  4.69306915e+02
+  4.01419495e+02  2.56448395e+02  3.24852325e+02  2.68956451e+02
+  2.19665527e+02  1.38269302e+02  2.34392715e+02  1.23766045e+02
+  1.15171837e+02  1.17338928e+02  4.24389958e-01  3.25521737e-01
+  3.26591611e-01  3.36889893e-01  5.34300387e-01  4.02980834e-01
+  2.82044947e-01  2.92692512e-01  2.71622598e-01  2.86487579e-01
+  2.60932267e-01  3.61517340e-01]
+2024-12-11 13:17:57,208 - predict - INFO - Scaling features...
+2024-12-11 13:17:57,210 - predict - INFO - Features scaled successfully
+2024-12-11 13:17:57,210 - predict - INFO - Making prediction...
+2024-12-11 13:17:57,220 - predict - INFO - Prediction successful: 0.54
+2024-12-11 13:18:02,418 - __main__ - INFO - Processing uploaded file: Heaven Scent_48.mp3 (size: 4425697 bytes)
+2024-12-11 13:18:02,420 - predict - INFO - Starting prediction process for: C:\Users\13576\AppData\Local\Temp\tmp_zvx_vj1.mp3
+2024-12-11 13:18:02,420 - predict - DEBUG - Starting audio file verification for: C:\Users\13576\AppData\Local\Temp\tmp_zvx_vj1.mp3
+2024-12-11 13:18:02,420 - predict - DEBUG - File size: 4425697 bytes
+2024-12-11 13:18:02,426 - predict - DEBUG - Attempting to read with soundfile...
+2024-12-11 13:18:02,430 - predict - DEBUG - SoundFile success - Sample rate: 44100Hz, Channels: 2, Frames: 8129536
+2024-12-11 13:18:02,433 - predict - DEBUG - Attempting to read with librosa...
+2024-12-11 13:18:02,457 - predict - DEBUG - Librosa success - Sample rate: 44100Hz, Length: 44100 samples
+2024-12-11 13:18:02,465 - predict - INFO - Loading model and scaler...
+2024-12-11 13:18:02,567 - predict - INFO - Model and scaler loaded successfully
+2024-12-11 13:18:02,567 - predict - INFO - Starting feature extraction...
+2024-12-11 13:18:02,567 - train_model - INFO - Starting feature extraction for: C:\Users\13576\AppData\Local\Temp\tmp_zvx_vj1.mp3
+2024-12-11 13:18:02,572 - train_model - INFO - Audio file info: 44100Hz, 2 channels
+2024-12-11 13:18:02,572 - train_model - INFO - Loading audio file...
+2024-12-11 13:18:02,705 - train_model - INFO - Successfully loaded audio: 1323000 samples, 44100Hz sample rate
+2024-12-11 13:18:02,705 - train_model - INFO - Audio duration: 30.00 seconds
+2024-12-11 13:18:02,709 - train_model - INFO - Extracting MFCC features...
+2024-12-11 13:18:02,892 - train_model - INFO - MFCC features shape: (13, 2584)
+2024-12-11 13:18:02,892 - train_model - INFO - Extracting chroma features...
+2024-12-11 13:18:03,387 - train_model - INFO - Chroma features shape: (12, 2584)
+2024-12-11 13:18:03,387 - train_model - INFO - Combining features...
+2024-12-11 13:18:03,387 - train_model - INFO - Final feature vector shape: (38,)
+2024-12-11 13:18:03,387 - predict - INFO - Successfully extracted 38 features
+2024-12-11 13:18:03,392 - predict - DEBUG - Feature values: [-2.3356090e+02  1.4538235e+02 -2.9333158e+01  4.1904354e+01
+ -1.2194771e+01  1.8208096e+01 -4.6364117e+00  5.7305346e+00
+ -1.0111750e+00 -1.0975447e+00  2.0697062e+00 -4.2670488e+00
+  3.8328714e+00  1.0623056e+04  1.6831602e+03  5.5669202e+02
+  4.9360080e+02  1.7036971e+02  1.7645282e+02  1.3292825e+02
+  6.7138237e+01  7.8322456e+01  6.5136490e+01  4.8216209e+01
+  4.3923672e+01  5.2656635e+01  4.4907898e-01  4.7309619e-01
+  5.6531072e-01  5.1712763e-01  4.7328454e-01  5.0539684e-01
+  5.5155450e-01  6.6867751e-01  5.6420434e-01  5.4021615e-01
+  5.0271344e-01  4.5613000e-01]
+2024-12-11 13:18:03,393 - predict - INFO - Scaling features...
+2024-12-11 13:18:03,396 - predict - INFO - Features scaled successfully
+2024-12-11 13:18:03,396 - predict - INFO - Making prediction...
+2024-12-11 13:18:03,497 - predict - INFO - Prediction successful: 0.06
+2024-12-11 13:20:12,545 - __main__ - INFO - Processing uploaded file: Window Licker_35.mp3 (size: 8838719 bytes)
+2024-12-11 13:20:12,545 - predict - INFO - Starting prediction process for: C:\Users\13576\AppData\Local\Temp\tmpai0rxgi2.mp3
+2024-12-11 13:20:12,550 - predict - DEBUG - Starting audio file verification for: C:\Users\13576\AppData\Local\Temp\tmpai0rxgi2.mp3
+2024-12-11 13:20:12,555 - predict - DEBUG - File size: 8838719 bytes
+2024-12-11 13:20:12,557 - predict - DEBUG - Attempting to read with soundfile...
+2024-12-11 13:20:12,557 - predict - DEBUG - SoundFile success - Sample rate: 44100Hz, Channels: 2, Frames: 16237568
+2024-12-11 13:20:12,557 - predict - DEBUG - Attempting to read with librosa...
+2024-12-11 13:20:12,667 - predict - DEBUG - Librosa success - Sample rate: 44100Hz, Length: 44100 samples
+2024-12-11 13:20:12,668 - predict - INFO - Loading model and scaler...
+2024-12-11 13:20:12,745 - predict - INFO - Model and scaler loaded successfully
+2024-12-11 13:20:12,745 - predict - INFO - Starting feature extraction...
+2024-12-11 13:20:12,745 - train_model - INFO - Starting feature extraction for: C:\Users\13576\AppData\Local\Temp\tmpai0rxgi2.mp3
+2024-12-11 13:20:12,745 - train_model - INFO - Audio file info: 44100Hz, 2 channels
+2024-12-11 13:20:12,755 - train_model - INFO - Loading audio file...
+2024-12-11 13:20:12,891 - train_model - INFO - Successfully loaded audio: 1323000 samples, 44100Hz sample rate
+2024-12-11 13:20:12,895 - train_model - INFO - Audio duration: 30.00 seconds
+2024-12-11 13:20:12,895 - train_model - INFO - Extracting MFCC features...
+2024-12-11 13:20:13,055 - train_model - INFO - MFCC features shape: (13, 2584)
+2024-12-11 13:20:13,056 - train_model - INFO - Extracting chroma features...
+2024-12-11 13:20:13,471 - train_model - INFO - Chroma features shape: (12, 2584)
+2024-12-11 13:20:13,471 - train_model - INFO - Combining features...
+2024-12-11 13:20:13,471 - train_model - INFO - Final feature vector shape: (38,)
+2024-12-11 13:20:13,471 - predict - INFO - Successfully extracted 38 features
+2024-12-11 13:20:13,471 - predict - DEBUG - Feature values: [-2.8224377e+02  1.1774845e+02 -7.0083385e+00  4.4696651e+01
+  1.1139475e+00 -4.8681107e+00  5.6784005e+00  2.3813262e+00
+  1.4233903e+01 -3.4606228e+00  5.1661259e-01  7.9957376e+00
+  2.2057464e+00  1.1764021e+04  1.8067871e+03  1.9663475e+03
+  8.3425970e+02  3.4982993e+02  2.7451614e+02  3.2049197e+02
+  1.3381290e+02  1.7509862e+02  1.1101323e+02  1.1903727e+02
+  1.3614157e+02  1.9920329e+02  4.7892746e-01  4.2454505e-01
+  4.2979997e-01  4.6845508e-01  4.2458498e-01  4.1361013e-01
+  4.1251811e-01  5.5199784e-01  5.4914570e-01  5.6056815e-01
+  5.1506513e-01  4.6426034e-01]
+2024-12-11 13:20:13,475 - predict - INFO - Scaling features...
+2024-12-11 13:20:13,475 - predict - INFO - Features scaled successfully
+2024-12-11 13:20:13,475 - predict - INFO - Making prediction...
+2024-12-11 13:20:13,485 - predict - INFO - Prediction successful: 0.06
+2024-12-11 13:20:17,297 - __main__ - INFO - Processing uploaded file: Block Rockin Beats_27.mp3 (size: 7671213 bytes)
+2024-12-11 13:20:17,305 - predict - INFO - Starting prediction process for: C:\Users\13576\AppData\Local\Temp\tmp9fy0bv9f.mp3
+2024-12-11 13:20:17,313 - predict - DEBUG - Starting audio file verification for: C:\Users\13576\AppData\Local\Temp\tmp9fy0bv9f.mp3
+2024-12-11 13:20:17,315 - predict - DEBUG - File size: 7671213 bytes
+2024-12-11 13:20:17,315 - predict - DEBUG - Attempting to read with soundfile...
+2024-12-11 13:20:17,315 - predict - DEBUG - SoundFile success - Sample rate: 48000Hz, Channels: 2, Frames: 15339103
+2024-12-11 13:20:17,325 - predict - DEBUG - Attempting to read with librosa...
+2024-12-11 13:20:17,360 - predict - DEBUG - Librosa success - Sample rate: 48000Hz, Length: 48000 samples
+2024-12-11 13:20:17,365 - predict - INFO - Loading model and scaler...
+2024-12-11 13:20:17,452 - predict - INFO - Model and scaler loaded successfully
+2024-12-11 13:20:17,455 - predict - INFO - Starting feature extraction...
+2024-12-11 13:20:17,455 - train_model - INFO - Starting feature extraction for: C:\Users\13576\AppData\Local\Temp\tmp9fy0bv9f.mp3
+2024-12-11 13:20:17,455 - train_model - INFO - Audio file info: 48000Hz, 2 channels
+2024-12-11 13:20:17,460 - train_model - INFO - Loading audio file...
+2024-12-11 13:20:17,609 - train_model - INFO - Successfully loaded audio: 1440000 samples, 48000Hz sample rate
+2024-12-11 13:20:17,610 - train_model - INFO - Audio duration: 30.00 seconds
+2024-12-11 13:20:17,610 - train_model - INFO - Extracting MFCC features...
+2024-12-11 13:20:17,812 - train_model - INFO - MFCC features shape: (13, 2813)
+2024-12-11 13:20:17,813 - train_model - INFO - Extracting chroma features...
+2024-12-11 13:20:18,327 - train_model - INFO - Chroma features shape: (12, 2813)
+2024-12-11 13:20:18,327 - train_model - INFO - Combining features...
+2024-12-11 13:20:18,327 - train_model - INFO - Final feature vector shape: (38,)
+2024-12-11 13:20:18,327 - predict - INFO - Successfully extracted 38 features
+2024-12-11 13:20:18,327 - predict - DEBUG - Feature values: [-2.3594275e+02  1.9172580e+02 -1.1517843e+01  4.9424446e+01
+  1.7157560e+01  4.3232427e+00  1.3056364e+01  1.9516910e+00
+  7.2987900e+00 -1.2612551e+00  1.9377090e+00  1.5000507e+00
+  1.3362080e+00  5.9816992e+03  1.1054888e+03  2.7489766e+03
+  6.4721509e+02  2.2304434e+02  1.8420665e+02  1.5346341e+02
+  7.4156891e+01  9.2982689e+01  4.8471329e+01  5.2862312e+01
+  4.2415070e+01  3.2049290e+01  5.4487443e-01  5.5422753e-01
+  5.3163105e-01  4.8249313e-01  4.9943811e-01  5.1110208e-01
+  5.5127466e-01  6.6567087e-01  6.0800427e-01  6.3829786e-01
+  6.8272883e-01  6.2373269e-01]
+2024-12-11 13:20:18,327 - predict - INFO - Scaling features...
+2024-12-11 13:20:18,327 - predict - INFO - Features scaled successfully
+2024-12-11 13:20:18,334 - predict - INFO - Making prediction...
+2024-12-11 13:20:18,336 - predict - INFO - Prediction successful: 0.12
